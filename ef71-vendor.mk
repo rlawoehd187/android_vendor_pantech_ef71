@@ -98,7 +98,6 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/lib64/libstagefright_soft_flacdec.so:system/lib64/libstagefright_soft_flacdec.so \
     vendor/pantech/ef71/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
     vendor/pantech/ef71/proprietary/vendor/bin/cnd:system/vendor/bin/cnd \
-    vendor/pantech/ef71/proprietary/vendor/bin/cnss-daemon:system/vendor/bin/cnss-daemon \
     vendor/pantech/ef71/proprietary/vendor/bin/energy-awareness:system/vendor/bin/energy-awareness \
     vendor/pantech/ef71/proprietary/vendor/bin/dpmQmiMgr:system/vendor/bin/dpmQmiMgr \
     vendor/pantech/ef71/proprietary/vendor/bin/energy-awareness:system/vendor/bin/energy-awareness \
