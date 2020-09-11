@@ -84,9 +84,6 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/etc/firmware/ice40.bin:system/etc/firmware/ice40.bin \
     vendor/pantech/ef71/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
     vendor/pantech/ef71/proprietary/etc/flp.conf:system/etc/flp.conf \
-    vendor/pantech/ef71/proprietary/etc/ft5336_biel_720p.ini:system/etc/ft5336_biel_720p.ini \
-    vendor/pantech/ef71/proprietary/etc/ft5336_lens_720p.ini:system/etc/ft5336_lens_720p.ini \
-    vendor/pantech/ef71/proprietary/etc/ft5336_oufei_720p.ini:system/etc/ft5336_oufei_720p.ini \
     vendor/pantech/ef71/proprietary/etc/hostapd/hostapd.accept:system/etc/hostapd/hostapd.accept \
     vendor/pantech/ef71/proprietary/etc/hostapd/hostapd.deny:system/etc/hostapd/hostapd.deny \
     vendor/pantech/ef71/proprietary/etc/hostapd/hostapd_default.conf:system/etc/hostapd/hostapd_default.conf \
