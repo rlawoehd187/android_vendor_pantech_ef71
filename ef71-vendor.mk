@@ -128,6 +128,7 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
     vendor/pantech/ef71/proprietary/framework/com.qualcomm.location.vzw_library.jar:system/framework/com.qualcomm.location.vzw_library.jar \
     vendor/pantech/ef71/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
+    vendor/pantech/ef71/proprietary/lib/hw/camera.msm8937.so:system/lib/hw/camera.msm8937.so \
     vendor/pantech/ef71/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
     vendor/pantech/ef71/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/pantech/ef71/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
