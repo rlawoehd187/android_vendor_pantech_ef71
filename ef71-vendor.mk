@@ -23,7 +23,6 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
     vendor/pantech/ef71/proprietary/etc/init/dpmd.rc:system/etc/init/dpmd.rc \
     vendor/pantech/ef71/proprietary/etc/firmware/ice40.bin:system/etc/firmware/ice40.bin \
-    vendor/pantech/ef71/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
     vendor/pantech/ef71/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/pantech/ef71/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
     vendor/pantech/ef71/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
@@ -42,7 +41,6 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
     vendor/pantech/ef71/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
     vendor/pantech/ef71/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
-    vendor/pantech/ef71/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
     vendor/pantech/ef71/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
     vendor/pantech/ef71/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
     vendor/pantech/ef71/proprietary/framework/embmslibrary.jar:system/framework/embmslibrary.jar \
