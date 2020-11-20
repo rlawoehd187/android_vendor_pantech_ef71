@@ -151,25 +151,26 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/vendor/etc/perf/perf-profile5.conf:system/vendor/etc/perf/perf-profile5.conf \
     vendor/pantech/ef71/proprietary/vendor/etc/perf/perf-profile6.conf:system/vendor/etc/perf/perf-profile6.conf \
     vendor/pantech/ef71/proprietary/vendor/etc/perf/perfboostsconfig.xml:system/vendor/etc/perf/perfboostsconfig.xml \
-    vendor/pantech/ef71/proprietary/vendor/etc/firmware/DE.o.msm8937:system/vendor/etc/firmware/DE.o.msm8937 \
-    vendor/pantech/ef71/proprietary/vendor/etc/firmware/a530_gpmu.fw2:system/vendor/etc/firmware/a530_gpmu.fw2 \
-    vendor/pantech/ef71/proprietary/vendor/etc/firmware/a530_pfp.fw:system/vendor/etc/firmware/a530_pfp.fw \
-    vendor/pantech/ef71/proprietary/vendor/etc/firmware/a530_pm4.fw:system/vendor/etc/firmware/a530_pm4.fw \
-    vendor/pantech/ef71/proprietary/vendor/etc/firmware/a530v1_pfp.fw:system/vendor/etc/firmware/a530v1_pfp.fw \
-    vendor/pantech/ef71/proprietary/vendor/etc/firmware/a530v1_pm4.fw:system/vendor/etc/firmware/a530v1_pm4.fw \
-    vendor/pantech/ef71/proprietary/vendor/etc/firmware/a530v2_seq.fw2:system/vendor/etc/firmware/a530v2_seq.fw2 \
-    vendor/pantech/ef71/proprietary/vendor/etc/firmware/a530v3_gpmu.fw2:system/vendor/etc/firmware/a530v3_gpmu.fw2 \
-    vendor/pantech/ef71/proprietary/vendor/etc/firmware/a530v3_seq.fw2:system/vendor/etc/firmware/a530v3_seq.fw2 \
-    vendor/pantech/ef71/proprietary/vendor/etc/firmware/cpp_firmware_v1_10_0.fw:system/vendor/etc/firmware/cpp_firmware_v1_10_0.fw \
-    vendor/pantech/ef71/proprietary/vendor/etc/firmware/cpp_firmware_v1_1_1.fw:system/vendor/etc/firmware/cpp_firmware_v1_1_1.fw \
-    vendor/pantech/ef71/proprietary/vendor/etc/firmware/cpp_firmware_v1_1_6.fw:system/vendor/etc/firmware/cpp_firmware_v1_1_6.fw \
-    vendor/pantech/ef71/proprietary/vendor/etc/firmware/cpp_firmware_v1_2_0.fw:system/vendor/etc/firmware/cpp_firmware_v1_2_0.fw \
-    vendor/pantech/ef71/proprietary/vendor/etc/firmware/cpp_firmware_v1_4_0.fw:system/vendor/etc/firmware/cpp_firmware_v1_4_0.fw \
-    vendor/pantech/ef71/proprietary/vendor/etc/firmware/cpp_firmware_v1_5_0.fw:system/vendor/etc/firmware/cpp_firmware_v1_5_0.fw \
-    vendor/pantech/ef71/proprietary/vendor/etc/firmware/cpp_firmware_v1_5_2.fw:system/vendor/etc/firmware/cpp_firmware_v1_5_2.fw \
-    vendor/pantech/ef71/proprietary/vendor/etc/firmware/cpp_firmware_v1_6_0.fw:system/vendor/etc/firmware/cpp_firmware_v1_6_0.fw \
-    vendor/pantech/ef71/proprietary/vendor/etc/firmware/cpp_firmware_v1_8_0.fw:system/vendor/etc/firmware/cpp_firmware_v1_8_0.fw \
-    vendor/pantech/ef71/proprietary/vendor/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/vendor/etc/firmware/wlan/prima/WCNSS_cfg.dat \
+    vendor/pantech/ef71/proprietary/vendor/firmware/DE.o.msm8937:system/vendor/firmware/DE.o.msm8937 \
+    vendor/pantech/ef71/proprietary/vendor/firmware/a530_gpmu.fw2:system/vendor/firmware/a530_gpmu.fw2 \
+    vendor/pantech/ef71/proprietary/vendor/firmware/a530_pfp.fw:system/vendor/firmware/a530_pfp.fw \
+    vendor/pantech/ef71/proprietary/vendor/firmware/a530_pm4.fw:system/vendor/firmware/a530_pm4.fw \
+    vendor/pantech/ef71/proprietary/vendor/firmware/a530v1_pfp.fw:system/vendor/firmware/a530v1_pfp.fw \
+    vendor/pantech/ef71/proprietary/vendor/firmware/a530v1_pm4.fw:system/vendor/firmware/a530v1_pm4.fw \
+    vendor/pantech/ef71/proprietary/vendor/firmware/a530v2_seq.fw2:system/vendor/firmware/a530v2_seq.fw2 \
+    vendor/pantech/ef71/proprietary/vendor/firmware/a530v3_gpmu.fw2:system/vendor/firmware/a530v3_gpmu.fw2 \
+    vendor/pantech/ef71/proprietary/vendor/firmware/a530v3_seq.fw2:system/vendor/firmware/a530v3_seq.fw2 \
+    vendor/pantech/ef71/proprietary/vendor/firmware/cpp_firmware_v1_10_0.fw:system/vendor/firmware/cpp_firmware_v1_10_0.fw \
+    vendor/pantech/ef71/proprietary/vendor/firmware/cpp_firmware_v1_1_1.fw:system/vendor/firmware/cpp_firmware_v1_1_1.fw \
+    vendor/pantech/ef71/proprietary/vendor/firmware/cpp_firmware_v1_1_6.fw:system/vendor/firmware/cpp_firmware_v1_1_6.fw \
+    vendor/pantech/ef71/proprietary/vendor/firmware/cpp_firmware_v1_2_0.fw:system/vendor/firmware/cpp_firmware_v1_2_0.fw \
+    vendor/pantech/ef71/proprietary/vendor/firmware/cpp_firmware_v1_4_0.fw:system/vendor/firmware/cpp_firmware_v1_4_0.fw \
+    vendor/pantech/ef71/proprietary/vendor/firmware/cpp_firmware_v1_5_0.fw:system/vendor/firmware/cpp_firmware_v1_5_0.fw \
+    vendor/pantech/ef71/proprietary/vendor/firmware/cpp_firmware_v1_5_2.fw:system/vendor/firmware/cpp_firmware_v1_5_2.fw \
+    vendor/pantech/ef71/proprietary/vendor/firmware/cpp_firmware_v1_6_0.fw:system/vendor/firmware/cpp_firmware_v1_6_0.fw \
+    vendor/pantech/ef71/proprietary/vendor/firmware/cpp_firmware_v1_8_0.fw:system/vendor/firmware/cpp_firmware_v1_8_0.fw \
+    vendor/pantech/ef71/proprietary/vendor/firmware/libpn548ad_fw.so:system/vendor/firmware/libpn548ad_fw.so \
+    vendor/pantech/ef71/proprietary/vendor/firmware/wlan/prima/WCNSS_cfg.dat:system/vendor/firmware/wlan/prima/WCNSS_cfg.dat \
     vendor/pantech/ef71/proprietary/vendor/etc/audio_output_policy.conf:system/vendor/etc/audio_output_policy.conf \
     vendor/pantech/ef71/proprietary/vendor/etc/sound_trigger_mixer_paths_wcd9306.xml:system/vendor/etc/sound_trigger_mixer_paths_wcd9306.xml \
     vendor/pantech/ef71/proprietary/vendor/etc/sound_trigger_mixer_paths_wcd9330.xml:system/vendor/etc/sound_trigger_mixer_paths_wcd9330.xml \
@@ -178,7 +179,6 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/vendor/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg:system/vendor/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg \
     vendor/pantech/ef71/proprietary/vendor/etc/xtra_root_cert.pem:system/vendor/etc/xtra_root_cert.pem \
     vendor/pantech/ef71/proprietary/vendor/framework/qti-vzw-ims-internal.jar:system/vendor/framework/qti-vzw-ims-internal.jar \
-    vendor/pantech/ef71/proprietary/vendor/firmware/libpn548ad_fw.so:system/vendor/firmware/libpn548ad_fw.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so:system/vendor/lib64/egl/libGLESv1_CM_adreno.so \
