@@ -54,6 +54,7 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/lib/vendor.qti.hardware.iop@1.0.so:system/lib/vendor.qti.hardware.iop@1.0.so \
     vendor/pantech/ef71/proprietary/lib/vendor.qti.hardware.perf@1.0.so:system/lib/vendor.qti.hardware.perf@1.0.so \
     vendor/pantech/ef71/proprietary/lib/vendor.qti.hardware.qdutils_disp@1.0.so:system/lib/vendor.qti.hardware.qdutils_disp@1.0.so \
+    vendor/pantech/ef71/proprietary/lib/vendor.qti.hardware.tui_comm@1.0.so:system/lib/vendor.qti.hardware.tui_comm@1.0.so \
     vendor/pantech/ef71/proprietary/lib64/hw/keystore.default.so:system/lib64/hw/keystore.default.so \
     vendor/pantech/ef71/proprietary/lib64/libOmxSwVdec.so:system/lib64/libOmxSwVdec.so \
     vendor/pantech/ef71/proprietary/lib64/libOmxSwVencMpeg4.so:system/lib64/libOmxSwVencMpeg4.so \
@@ -65,6 +66,7 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/lib64/vendor.qti.hardware.iop@1.0.so:system/lib64/vendor.qti.hardware.iop@1.0.so \
     vendor/pantech/ef71/proprietary/lib64/vendor.qti.hardware.perf@1.0.so:system/lib64/vendor.qti.hardware.perf@1.0.so \
     vendor/pantech/ef71/proprietary/lib64/vendor.qti.hardware.qdutils_disp@1.0.so:system/lib64/vendor.qti.hardware.qdutils_disp@1.0.so \
+    vendor/pantech/ef71/proprietary/lib64/vendor.qti.hardware.tui_comm@1.0.so:system/lib64/vendor.qti.hardware.tui_comm@1.0.so \
     vendor/pantech/ef71/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
     vendor/pantech/ef71/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/pantech/ef71/proprietary/lib64/libstagefright_soft_flacdec.so:system/lib64/libstagefright_soft_flacdec.so \
@@ -80,6 +82,7 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/vendor/bin/hw/vendor.qti.hardware.iop@1.0-service:system/vendor/bin/hw/vendor.qti.hardware.iop@1.0-service \
     vendor/pantech/ef71/proprietary/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service:system/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service \
     vendor/pantech/ef71/proprietary/vendor/bin/hw/vendor.qti.hardware.qdutils_disp@1.0-service-qti:system/vendor/bin/hw/vendor.qti.hardware.qdutils_disp@1.0-service-qti \
+    vendor/pantech/ef71/proprietary/vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti:system/vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti \
     vendor/pantech/ef71/proprietary/vendor/bin/hci_qcomm_init:system/vendor/bin/hci_qcomm_init \
     vendor/pantech/ef71/proprietary/vendor/bin/ims_rtp_daemon:system/vendor/bin/ims_rtp_daemon \
     vendor/pantech/ef71/proprietary/vendor/bin/imscmservice:system/vendor/bin/imscmservice \
@@ -143,6 +146,7 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/vendor/etc/init/vendor.qti.hardware.iop@1.0-service.rc:system/vendor/etc/init/vendor.qti.hardware.iop@1.0-service.rc \
     vendor/pantech/ef71/proprietary/vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc:system/vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc \
     vendor/pantech/ef71/proprietary/vendor/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc:system/vendor/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc \
+    vendor/pantech/ef71/proprietary/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc:system/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc \
     vendor/pantech/ef71/proprietary/vendor/etc/perf/perf-profile0.conf:system/vendor/etc/perf/perf-profile0.conf \
     vendor/pantech/ef71/proprietary/vendor/etc/perf/perf-profile1.conf:system/vendor/etc/perf/perf-profile1.conf \
     vendor/pantech/ef71/proprietary/vendor/etc/perf/perf-profile2.conf:system/vendor/etc/perf/perf-profile2.conf \
@@ -511,6 +515,7 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/vendor/lib/vendor.qti.hardware.iop@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.iop@1.0_vendor.so \
     vendor/pantech/ef71/proprietary/vendor/lib/vendor.qti.hardware.perf@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.perf@1.0_vendor.so \
     vendor/pantech/ef71/proprietary/vendor/lib/vendor.qti.hardware.qdutils_disp@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.qdutils_disp@1.0_vendor.so \
+    vendor/pantech/ef71/proprietary/vendor/lib/vendor.qti.hardware.tui_comm@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.tui_comm@1.0_vendor.so \
     vendor/pantech/ef71/proprietary/vendor/lib/vendor.qti.hardware.data.latency@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.data.latency@1.0_vendor.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
@@ -722,6 +727,7 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/vendor/lib64/vendor.qti.hardware.iop@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.iop@1.0_vendor.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/vendor.qti.hardware.perf@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.perf@1.0_vendor.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0_vendor.so \
+    vendor/pantech/ef71/proprietary/vendor/lib64/vendor.qti.hardware.tui_comm@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.tui_comm@1.0_vendor.so \
     vendor/pantech/ef71/proprietary/vendor/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
     vendor/pantech/ef71/proprietary/vendor/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd \
     vendor/pantech/ef71/proprietary/vendor/qcril.db:system/vendor/qcril.db
