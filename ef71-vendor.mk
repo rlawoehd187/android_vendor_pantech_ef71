@@ -375,6 +375,9 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libizat_client_api.so:system/vendor/lib/libizat_client_api.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
+    vendor/pantech/ef71/proprietary/vendor/lib/libkeymasterdeviceutils.so:system/vendor/lib/libkeymasterdeviceutils.so \
+    vendor/pantech/ef71/proprietary/vendor/lib/libkeymasterprovision.so:system/vendor/lib/libkeymasterprovision.so \
+    vendor/pantech/ef71/proprietary/vendor/lib/libkeymasterutils.so:system/vendor/lib/libkeymasterutils.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libjpegdmahw.so:system/vendor/lib/libjpegdmahw.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
@@ -718,6 +721,9 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/vendor/lib64/libimsmedia_jni.so:system/vendor/lib64/libimsmedia_jni.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libizat_client_api.so:system/vendor/lib64/libizat_client_api.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libizat_core.so:system/vendor/lib64/libizat_core.so \
+    vendor/pantech/ef71/proprietary/vendor/lib64/libkeymasterdeviceutils.so:system/vendor/lib64/libkeymasterdeviceutils.so \
+    vendor/pantech/ef71/proprietary/vendor/lib64/libkeymasterprovision.so:system/vendor/lib64/libkeymasterprovision.so \
+    vendor/pantech/ef71/proprietary/vendor/lib64/libkeymasterutils.so:system/vendor/lib64/libkeymasterutils.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libllvm-glnext.so:system/vendor/lib64/libllvm-glnext.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libllvm-qcom.so:system/vendor/lib64/libllvm-qcom.so \
