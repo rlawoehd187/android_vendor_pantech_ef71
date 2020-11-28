@@ -48,6 +48,7 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
     vendor/pantech/ef71/proprietary/lib/libdiag_system.so:system/lib/libdiag_system.so \
     vendor/pantech/ef71/proprietary/lib/liblocationservice_jni.so:system/lib/liblocationservice_jni.so \
+    vendor/pantech/ef71/proprietary/lib/libqct_resampler.so:system/lib/libqct_resampler.so \
     vendor/pantech/ef71/proprietary/lib/libqmi_cci_system.so:system/lib/libqmi_cci_system.so \
     vendor/pantech/ef71/proprietary/lib/libsdm-disp-apis.so:system/lib/libsdm-disp-apis.so \
     vendor/pantech/ef71/proprietary/lib/libsensor1.so:system/lib/libsensor1.so \
@@ -503,7 +504,6 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libqcmaputils.so:system/vendor/lib/libqcmaputils.so \
-    vendor/pantech/ef71/proprietary/vendor/lib/libqct_resampler.so:system/vendor/lib/libqct_resampler.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libqisl.so:system/vendor/lib/libqisl.so \
@@ -578,9 +578,12 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/vendor/lib/rfsa/adsp/libscveTextReco_skel.so:system/vendor/lib/rfsa/adsp/libscveTextReco_skel.so \
     vendor/pantech/ef71/proprietary/vendor/lib/sensor_calibrate.so:system/vendor/lib/sensor_calibrate.so \
     vendor/pantech/ef71/proprietary/vendor/lib/sensors.ssc.so:system/vendor/lib/sensors.ssc.so \
+    vendor/pantech/ef71/proprietary/vendor/lib/soundfx/libasphere.so:system/vendor/lib/soundfx/libasphere.so \
     vendor/pantech/ef71/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
+    vendor/pantech/ef71/proprietary/vendor/lib/soundfx/libqcomvisualizer.so:system/vendor/lib/soundfx/libqcomvisualizer.so \
     vendor/pantech/ef71/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/pantech/ef71/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
+    vendor/pantech/ef71/proprietary/vendor/lib/soundfx/libshoebox.so:system/vendor/lib/soundfx/libshoebox.so \
     vendor/pantech/ef71/proprietary/vendor/lib/vendor.display.color@1.0_vendor.so:system/vendor/lib/vendor.display.color@1.0_vendor.so \
     vendor/pantech/ef71/proprietary/vendor/lib/vendor.display.postproc@1.0_vendor.so:system/vendor/lib/vendor.display.postproc@1.0_vendor.so \
     vendor/pantech/ef71/proprietary/vendor/lib/vendor.qti.hardware.alarm@1.0.so:system/vendor/lib/vendor.qti.hardware.alarm@1.0.so \
@@ -617,6 +620,7 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so:system/vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/hw/gatekeeper.msm8937.so:system/vendor/lib64/hw/gatekeeper.msm8937.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/hw/keystore.msm8937.so:system/vendor/lib64/hw/keystore.msm8937.so \
+    vendor/pantech/ef71/proprietary/vendor/lib64/hw/sound_trigger.primary.msm8937.so:system/vendor/lib64/hw/sound_trigger.primary.msm8937.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/hw/vendor.qti.hardware.iop@1.0-impl.so:system/vendor/lib64/hw/vendor.qti.hardware.iop@1.0-impl.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/hw/vulkan.msm8937.so:system/vendor/lib64/hw/vulkan.msm8937.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/com.qualcomm.qti.dpm.api@1.0_vendor.so:system/vendor/lib64/com.qualcomm.qti.dpm.api@1.0_vendor.so \
@@ -818,9 +822,12 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/sensor_calibrate.so:system/vendor/lib64/sensor_calibrate.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so \
+    vendor/pantech/ef71/proprietary/vendor/lib64/soundfx/libasphere.so:system/vendor/lib64/soundfx/libasphere.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/soundfx/libqcbassboost.so:system/vendor/lib64/soundfx/libqcbassboost.so \
+    vendor/pantech/ef71/proprietary/vendor/lib64/soundfx/libqcomvisualizer.so:system/vendor/lib64/soundfx/libqcomvisualizer.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/soundfx/libqcreverb.so:system/vendor/lib64/soundfx/libqcreverb.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/soundfx/libqcvirt.so:system/vendor/lib64/soundfx/libqcvirt.so \
+    vendor/pantech/ef71/proprietary/vendor/lib64/soundfx/libshoebox.so:system/vendor/lib64/soundfx/libshoebox.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/vendor.display.color@1.0_vendor.so:system/vendor/lib64/vendor.display.color@1.0_vendor.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/vendor.display.postproc@1.0_vendor.so:system/vendor/lib64/vendor.display.postproc@1.0_vendor.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/vendor.qti.gnss@1.0_vendor.so:system/vendor/lib64/vendor.qti.gnss@1.0_vendor.so \
