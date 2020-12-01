@@ -383,6 +383,7 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/vendor/lib/libkeymasterdeviceutils.so:system/vendor/lib/libkeymasterdeviceutils.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libkeymasterprovision.so:system/vendor/lib/libkeymasterprovision.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libkeymasterutils.so:system/vendor/lib/libkeymasterutils.so \
+    vendor/pantech/ef71/proprietary/vendor/lib/libhwdaphal.so:system/vendor/lib/libhwdaphal.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libjpegdmahw.so:system/vendor/lib/libjpegdmahw.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
@@ -705,6 +706,7 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/vendor/lib64/libgnsspps.so:system/vendor/lib64/libgnsspps.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libhdr_tm.so:system/vendor/lib64/libhdr_tm.so \
+    vendor/pantech/ef71/proprietary/vendor/lib64/libhwdaphal.so:system/vendor/lib64/libhwdaphal.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libidl.so:system/vendor/lib64/libidl.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libizat_client_api.so:system/vendor/lib64/libizat_client_api.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libizat_core.so:system/vendor/lib64/libizat_core.so \
