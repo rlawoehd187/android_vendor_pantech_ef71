@@ -97,7 +97,6 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:system/lib64/vendor.qti.imsrtpservice@1.0.so \
     vendor/pantech/ef71/proprietary/lib64/libstagefright_soft_flacdec.so:system/lib64/libstagefright_soft_flacdec.so \
     vendor/pantech/ef71/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
-    vendor/pantech/ef71/proprietary/vendor/bin/btnvtool:system/vendor/bin/btnvtool \
     vendor/pantech/ef71/proprietary/vendor/bin/cnd:system/vendor/bin/cnd \
     vendor/pantech/ef71/proprietary/vendor/bin/cnss-daemon:system/vendor/bin/cnss-daemon \
     vendor/pantech/ef71/proprietary/vendor/bin/energy-awareness:system/vendor/bin/energy-awareness \
@@ -126,6 +125,7 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/vendor/bin/ssr_diag:system/vendor/bin/ssr_diag \
     vendor/pantech/ef71/proprietary/vendor/bin/tftp_server:system/vendor/bin/tftp_server \
     vendor/pantech/ef71/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon \
+    vendor/pantech/ef71/proprietary/vendor/bin/wcnss_filter:system/vendor/bin/wcnss_filter \
     vendor/pantech/ef71/proprietary/vendor/bin/wcnss_service:system/vendor/bin/wcnss_service \
     vendor/pantech/ef71/proprietary/vendor/bin/mdtpd:system/vendor/bin/mdtpd \
     vendor/pantech/ef71/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
