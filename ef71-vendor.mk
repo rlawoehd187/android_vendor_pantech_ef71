@@ -619,7 +619,6 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libsettings.so:system/vendor/lib/libsettings.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libslimclient.so:system/vendor/lib/libslimclient.so \
-    vendor/pantech/ef71/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libsmwrapper.so:system/vendor/lib/libsmwrapper.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libsubsystem_control.so:system/vendor/lib/libsubsystem_control.so \
@@ -874,7 +873,6 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/vendor/lib64/libsensor_reg.so:system/vendor/lib64/libsensor_reg.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libsettings.so:system/vendor/lib64/libsettings.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libslimclient.so:system/vendor/lib64/libslimclient.so \
-    vendor/pantech/ef71/proprietary/vendor/lib64/libsmemlog.so:system/vendor/lib64/libsmemlog.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libssd.so:system/vendor/lib64/libssd.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libsubsystem_control.so:system/vendor/lib64/libsubsystem_control.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
