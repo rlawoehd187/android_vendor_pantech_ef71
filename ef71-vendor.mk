@@ -45,10 +45,7 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/etc/wfdconfigsink.xml:system/etc/wfdconfigsink.xml \
     vendor/pantech/ef71/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
     vendor/pantech/ef71/proprietary/framework/audiosphere.jar:system/framework/audiosphere.jar \
-    vendor/pantech/ef71/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
     vendor/pantech/ef71/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
-    vendor/pantech/ef71/proprietary/framework/com.quicinc.cne.api-V1.0-java.jar:system/framework/com.quicinc.cne.api-V1.0-java.jar \
-    vendor/pantech/ef71/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
     vendor/pantech/ef71/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
     vendor/pantech/ef71/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/pantech/ef71/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
@@ -460,7 +457,6 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libcneoplookup.so:system/vendor/lib/libcneoplookup.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
-    vendor/pantech/ef71/proprietary/vendor/lib/libcneconn.so:system/vendor/lib/libcneconn.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libcppf.so:system/vendor/lib/libcppf.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libdataitems.so:system/vendor/lib/libdataitems.so \
@@ -849,7 +845,6 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libcneoplookup.so:system/vendor/lib64/libcneoplookup.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libcneqmiutils.so:system/vendor/lib64/libcneqmiutils.so \
-    vendor/pantech/ef71/proprietary/vendor/lib64/libcneconn.so:system/vendor/lib64/libcneconn.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libdataitems.so:system/vendor/lib64/libdataitems.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libdiag.so:system/vendor/lib64/libdiag.so \
