@@ -55,11 +55,14 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/lib/com.qualcomm.qti.imscmservice@2.0.so:system/lib/com.qualcomm.qti.imscmservice@2.0.so \
     vendor/pantech/ef71/proprietary/lib/com.qualcomm.qti.imscmservice@2.1.so:system/lib/com.qualcomm.qti.imscmservice@2.1.so \
     vendor/pantech/ef71/proprietary/lib/com.qualcomm.qti.wifidisplayhal@1.0.so:system/lib/com.qualcomm.qti.wifidisplayhal@1.0.so \
+    vendor/pantech/ef71/proprietary/lib/extractors/libmmparser.so:system/lib/extractors/libmmparser.so \
     vendor/pantech/ef71/proprietary/lib/lib-imscamera.so:system/lib/lib-imscamera.so \
     vendor/pantech/ef71/proprietary/lib/lib-imsvideocodec.so:system/lib/lib-imsvideocodec.so \
     vendor/pantech/ef71/proprietary/lib/lib-imsvtextutils.so:system/lib/lib-imsvtextutils.so \
     vendor/pantech/ef71/proprietary/lib/lib-imsvtutils.so:system/lib/lib-imsvtutils.so \
+    vendor/pantech/ef71/proprietary/lib/libFileMux.so:system/lib/libFileMux.so \
     vendor/pantech/ef71/proprietary/lib/libGPTEE_system.so:system/lib/libGPTEE_system.so \
+    vendor/pantech/ef71/proprietary/lib/libOmxMux.so:system/lib/libOmxMux.so \
     vendor/pantech/ef71/proprietary/lib/libQTEEConnector_system.so:system/lib/libQTEEConnector_system.so \
     vendor/pantech/ef71/proprietary/lib/libdiag_system.so:system/lib/libdiag_system.so \
     vendor/pantech/ef71/proprietary/lib/libdpmctmgr.so:system/lib/libdpmctmgr.so \
@@ -69,6 +72,8 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
     vendor/pantech/ef71/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
     vendor/pantech/ef71/proprietary/lib/liblocationservice_jni.so:system/lib/liblocationservice_jni.so \
+    vendor/pantech/ef71/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
+    vendor/pantech/ef71/proprietary/lib/libmmparser_lite.so:system/lib/libmmparser_lite.so \
     vendor/pantech/ef71/proprietary/lib/libmmrtpdecoder.so:system/lib/libmmrtpdecoder.so \
     vendor/pantech/ef71/proprietary/lib/libqmi_cci_system.so:system/lib/libqmi_cci_system.so \
     vendor/pantech/ef71/proprietary/lib/libqti-at.so:system/lib/libqti-at.so \
@@ -108,6 +113,7 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/lib/vendor.qti.hardware.qdutils_disp@1.0.so:system/lib/vendor.qti.hardware.qdutils_disp@1.0.so \
     vendor/pantech/ef71/proprietary/lib/vendor.qti.hardware.qteeconnector@1.0.so:system/lib/vendor.qti.hardware.qteeconnector@1.0.so \
     vendor/pantech/ef71/proprietary/lib/vendor.qti.hardware.tui_comm@1.0.so:system/lib/vendor.qti.hardware.tui_comm@1.0.so \
+    vendor/pantech/ef71/proprietary/lib/vendor.qti.hardware.vpp@1.1.so:system/lib/vendor.qti.hardware.vpp@1.1.so \
     vendor/pantech/ef71/proprietary/lib/vendor.qti.ims.callinfo@1.0.so:system/lib/vendor.qti.ims.callinfo@1.0.so \
     vendor/pantech/ef71/proprietary/lib/vendor.qti.ims.rcsconfig@1.0.so:system/lib/vendor.qti.ims.rcsconfig@1.0.so \
     vendor/pantech/ef71/proprietary/lib/vendor.qti.imsrtpservice@1.0.so:system/lib/vendor.qti.imsrtpservice@1.0.so \
@@ -116,13 +122,16 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/lib64/com.qualcomm.qti.imscmservice@1.0.so:system/lib64/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/pantech/ef71/proprietary/lib64/com.qualcomm.qti.imscmservice@2.0.so:system/lib64/com.qualcomm.qti.imscmservice@2.0.so \
     vendor/pantech/ef71/proprietary/lib64/com.qualcomm.qti.imscmservice@2.1.so:system/lib64/com.qualcomm.qti.imscmservice@2.1.so \
+    vendor/pantech/ef71/proprietary/lib64/extractors/libmmparser.so:system/lib64/extractors/libmmparser.so \
     vendor/pantech/ef71/proprietary/lib64/hw/keystore.default.so:system/lib64/hw/keystore.default.so \
     vendor/pantech/ef71/proprietary/lib64/lib-imscamera.so:system/lib64/lib-imscamera.so \
     vendor/pantech/ef71/proprietary/lib64/lib-imsvideocodec.so:system/lib64/lib-imsvideocodec.so \
     vendor/pantech/ef71/proprietary/lib64/lib-imsvt.so:system/lib64/lib-imsvt.so \
     vendor/pantech/ef71/proprietary/lib64/lib-imsvtextutils.so:system/lib64/lib-imsvtextutils.so \
     vendor/pantech/ef71/proprietary/lib64/lib-imsvtutils.so:system/lib64/lib-imsvtutils.so \
+    vendor/pantech/ef71/proprietary/lib64/libFileMux.so:system/lib64/libFileMux.so \
     vendor/pantech/ef71/proprietary/lib64/libGPTEE_system.so:system/lib64/libGPTEE_system.so \
+    vendor/pantech/ef71/proprietary/lib64/libOmxMux.so:system/lib64/libOmxMux.so \
     vendor/pantech/ef71/proprietary/lib64/libQTEEConnector_system.so:system/lib64/libQTEEConnector_system.so \
     vendor/pantech/ef71/proprietary/lib64/libdiag_system.so:system/lib64/libdiag_system.so \
     vendor/pantech/ef71/proprietary/lib64/libdpmctmgr.so:system/lib64/libdpmctmgr.so \
@@ -132,6 +141,8 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
     vendor/pantech/ef71/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
     vendor/pantech/ef71/proprietary/lib64/liblocationservice_jni.so:system/lib64/liblocationservice_jni.so \
+    vendor/pantech/ef71/proprietary/lib64/libmmosal.so:system/lib64/libmmosal.so \
+    vendor/pantech/ef71/proprietary/lib64/libmmparser_lite.so:system/lib64/libmmparser_lite.so \
     vendor/pantech/ef71/proprietary/lib64/libmmrtpdecoder.so:system/lib64/libmmrtpdecoder.so \
     vendor/pantech/ef71/proprietary/lib64/libmmrtpencoder.so:system/lib64/libmmrtpencoder.so \
     vendor/pantech/ef71/proprietary/lib64/libqmi_cci_system.so:system/lib64/libqmi_cci_system.so \
@@ -154,6 +165,7 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/lib64/vendor.qti.hardware.qdutils_disp@1.0.so:system/lib64/vendor.qti.hardware.qdutils_disp@1.0.so \
     vendor/pantech/ef71/proprietary/lib64/vendor.qti.hardware.qteeconnector@1.0.so:system/lib64/vendor.qti.hardware.qteeconnector@1.0.so \
     vendor/pantech/ef71/proprietary/lib64/vendor.qti.hardware.tui_comm@1.0.so:system/lib64/vendor.qti.hardware.tui_comm@1.0.so \
+    vendor/pantech/ef71/proprietary/lib64/vendor.qti.hardware.vpp@1.1.so:system/lib64/vendor.qti.hardware.vpp@1.1.so \
     vendor/pantech/ef71/proprietary/lib64/vendor.qti.ims.callinfo@1.0.so:system/lib64/vendor.qti.ims.callinfo@1.0.so \
     vendor/pantech/ef71/proprietary/lib64/vendor.qti.ims.rcsconfig@1.0.so:system/lib64/vendor.qti.ims.rcsconfig@1.0.so \
     vendor/pantech/ef71/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:system/lib64/vendor.qti.imsrtpservice@1.0.so \
@@ -355,8 +367,11 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/vendor/lib/libOmxAmrwbplusDec.so:system/vendor/lib/libOmxAmrwbplusDec.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libOmxApeDec.so:system/vendor/lib/libOmxApeDec.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libOmxApeDecSw.so:system/vendor/lib/libOmxApeDecSw.so \
+    vendor/pantech/ef71/proprietary/vendor/lib/libOmxDsdDec.so:system/vendor/lib/libOmxDsdDec.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
+    vendor/pantech/ef71/proprietary/vendor/lib/libOmxSwVdec.so:system/vendor/lib/libOmxSwVdec.so \
+    vendor/pantech/ef71/proprietary/vendor/lib/libOmxSwVencMpeg4.so:system/vendor/lib/libOmxSwVencMpeg4.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libOmxVideoDSMode.so:system/vendor/lib/libOmxVideoDSMode.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libOmxVpp.so:system/vendor/lib/libOmxVpp.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
@@ -508,6 +523,7 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libmm-hdcpmgr.so:system/vendor/lib/libmm-hdcpmgr.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
+    vendor/pantech/ef71/proprietary/vendor/lib/libmmosal_proprietary.so:system/vendor/lib/libmmosal_proprietary.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libmmQSM.so:system/vendor/lib/libmmQSM.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
@@ -593,7 +609,6 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/vendor/lib/libmmcamera_ubifocus_lib.so:system/vendor/lib/libmmcamera_ubifocus_lib.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libmmcamera_vpu_module.so:system/vendor/lib/libmmcamera_vpu_module.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
-    vendor/pantech/ef71/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libmmqjpegdma.so:system/vendor/lib/libmmqjpegdma.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libmmsw_detail_enhancement.so:system/vendor/lib/libmmsw_detail_enhancement.so \
@@ -660,6 +675,7 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/vendor/lib/libslimclient.so:system/vendor/lib/libslimclient.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libsmwrapper.so:system/vendor/lib/libsmwrapper.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
+    vendor/pantech/ef71/proprietary/vendor/lib/libswvdec.so:system/vendor/lib/libswvdec.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libsubsystem_control.so:system/vendor/lib/libsubsystem_control.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libsurround_3mic_proc.so:system/vendor/lib/libsurround_3mic_proc.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
@@ -734,6 +750,7 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/vendor/lib/vendor.qti.hardware.radio.uim_remote_client@1.0.so:system/vendor/lib/vendor.qti.hardware.radio.uim_remote_client@1.0.so \
     vendor/pantech/ef71/proprietary/vendor/lib/vendor.qti.hardware.radio.uim_remote_server@1.0.so:system/vendor/lib/vendor.qti.hardware.radio.uim_remote_server@1.0.so \
     vendor/pantech/ef71/proprietary/vendor/lib/vendor.qti.hardware.tui_comm@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.tui_comm@1.0_vendor.so \
+    vendor/pantech/ef71/proprietary/vendor/lib/vendor.qti.hardware.vpp@1.1.so:system/vendor/lib/vendor.qti.hardware.vpp@1.1.so \
     vendor/pantech/ef71/proprietary/vendor/lib/vendor.qti.ims.callinfo@1.0.so:system/vendor/lib/vendor.qti.ims.callinfo@1.0.so \
     vendor/pantech/ef71/proprietary/vendor/lib/vendor.qti.ims.rcsconfig@1.0.so:system/vendor/lib/vendor.qti.ims.rcsconfig@1.0.so \
     vendor/pantech/ef71/proprietary/vendor/lib/vendor.qti.imsrtpservice@1.0-service-Impl.so:system/vendor/lib/vendor.qti.imsrtpservice@1.0-service-Impl.so \
@@ -801,7 +818,6 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/vendor/lib64/libGPTEE_vendor.so:system/vendor/lib64/libGPTEE_vendor.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libGPreqcancel.so:system/vendor/lib64/libGPreqcancel.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libGPreqcancel_svc.so:system/vendor/lib64/libGPreqcancel_svc.so \
-    vendor/pantech/ef71/proprietary/vendor/lib64/libFlacSwDec.so:system/vendor/lib64/libFlacSwDec.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libI420colorconvert.so:system/vendor/lib64/libI420colorconvert.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libMpeg4SwEncoder.so:system/vendor/lib64/libMpeg4SwEncoder.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libNimsWrap.so:system/vendor/lib64/libNimsWrap.so \
@@ -814,6 +830,8 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/vendor/lib64/libOmxApeDecSw.so:system/vendor/lib64/libOmxApeDecSw.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libOmxEvrcDec.so:system/vendor/lib64/libOmxEvrcDec.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libOmxQcelp13Dec.so:system/vendor/lib64/libOmxQcelp13Dec.so \
+    vendor/pantech/ef71/proprietary/vendor/lib64/libOmxSwVdec.so:system/vendor/lib64/libOmxSwVdec.so \
+    vendor/pantech/ef71/proprietary/vendor/lib64/libOmxSwVencMpeg4.so:system/vendor/lib64/libOmxSwVencMpeg4.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libOmxVpp.so:system/vendor/lib64/libOmxVpp.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libOmxWmaDec.so:system/vendor/lib64/libOmxWmaDec.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libOpenCL.so:system/vendor/lib64/libOpenCL.so \
@@ -890,9 +908,9 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/vendor/lib64/libmm-disp-apis.so:system/vendor/lib64/libmm-disp-apis.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libmm-dspp-utils.so:system/vendor/lib64/libmm-dspp-utils.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libmm-hdcpmgr.so:system/vendor/lib64/libmm-hdcpmgr.so \
+    vendor/pantech/ef71/proprietary/vendor/lib64/libmmosal_proprietary.so:system/vendor/lib64/libmmosal_proprietary.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libmm-qdcm-diag.so:system/vendor/lib64/libmm-qdcm-diag.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libmm-qdcm.so:system/vendor/lib64/libmm-qdcm.so \
-    vendor/pantech/ef71/proprietary/vendor/lib64/libmmosal.so:system/vendor/lib64/libmmosal.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libnetmgr_common.so:system/vendor/lib64/libnetmgr_common.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libnetmgr_nr_fusion.so:system/vendor/lib64/libnetmgr_nr_fusion.so \
@@ -945,6 +963,7 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/vendor/lib64/libsettings.so:system/vendor/lib64/libsettings.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libslimclient.so:system/vendor/lib64/libslimclient.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libssd.so:system/vendor/lib64/libssd.so \
+    vendor/pantech/ef71/proprietary/vendor/lib64/libswvdec.so:system/vendor/lib64/libswvdec.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libsubsystem_control.so:system/vendor/lib64/libsubsystem_control.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
@@ -1002,6 +1021,7 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0.so:system/vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so:system/vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/vendor.qti.hardware.tui_comm@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.tui_comm@1.0_vendor.so \
+    vendor/pantech/ef71/proprietary/vendor/lib64/vendor.qti.hardware.vpp@1.1.so:system/vendor/lib64/vendor.qti.hardware.vpp@1.1.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/vendor.qti.ims.callinfo@1.0.so:system/vendor/lib64/vendor.qti.ims.callinfo@1.0.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/vendor.qti.ims.rcsconfig@1.0.so:system/vendor/lib64/vendor.qti.ims.rcsconfig@1.0.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so:system/vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so \
@@ -1048,7 +1068,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.ims.callinfo-V1.0-java \
     vendor.qti.ims.rcsconfig-V1.0-java \
     embmslibrary \
-    libgpustats \
     vendor.qti.hardware.iop@1.0 \
     libloc_api_v02 \
     WfdCommon \
