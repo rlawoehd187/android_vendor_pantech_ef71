@@ -31,12 +31,15 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
     vendor/pantech/ef71/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
     vendor/pantech/ef71/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
+    vendor/pantech/ef71/proprietary/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml:system/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml \
+    vendor/pantech/ef71/proprietary/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml:system/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml \
+    vendor/pantech/ef71/proprietary/etc/permissions/com.qualcomm.qti.imscmservice.xml:system/etc/permissions/com.qualcomm.qti.imscmservice.xml \
     vendor/pantech/ef71/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
     vendor/pantech/ef71/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
     vendor/pantech/ef71/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
+    vendor/pantech/ef71/proprietary/etc/permissions/lpa.xml:system/etc/permissions/lpa.xml \
     vendor/pantech/ef71/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/pantech/ef71/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
-    vendor/pantech/ef71/proprietary/etc/permissions/qti-vzw-ims-internal.xml:system/etc/permissions/qti-vzw-ims-internal.xml \
     vendor/pantech/ef71/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/pantech/ef71/proprietary/etc/permissions/radioconfig.xml:system/etc/permissions/radioconfig.xml \
     vendor/pantech/ef71/proprietary/etc/permissions/radioconfiginterface.xml:system/etc/permissions/radioconfiginterface.xml \
@@ -56,6 +59,8 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/lib/com.qualcomm.qti.ant@1.0.so:system/lib/com.qualcomm.qti.ant@1.0.so \
     vendor/pantech/ef71/proprietary/lib/com.qualcomm.qti.dpm.api@1.0.so:system/lib/com.qualcomm.qti.dpm.api@1.0.so \
     vendor/pantech/ef71/proprietary/lib/com.qualcomm.qti.imscmservice@1.0.so:system/lib/com.qualcomm.qti.imscmservice@1.0.so \
+    vendor/pantech/ef71/proprietary/lib/com.qualcomm.qti.imscmservice@2.0.so:system/lib/com.qualcomm.qti.imscmservice@2.0.so \
+    vendor/pantech/ef71/proprietary/lib/com.qualcomm.qti.imscmservice@2.1.so:system/lib/com.qualcomm.qti.imscmservice@2.1.so \
     vendor/pantech/ef71/proprietary/lib/com.qualcomm.qti.wifidisplayhal@1.0.so:system/lib/com.qualcomm.qti.wifidisplayhal@1.0.so \
     vendor/pantech/ef71/proprietary/lib/lib-imscamera.so:system/lib/lib-imscamera.so \
     vendor/pantech/ef71/proprietary/lib/lib-imsvideocodec.so:system/lib/lib-imsvideocodec.so \
@@ -111,10 +116,14 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/lib/vendor.qti.hardware.qdutils_disp@1.0.so:system/lib/vendor.qti.hardware.qdutils_disp@1.0.so \
     vendor/pantech/ef71/proprietary/lib/vendor.qti.hardware.qteeconnector@1.0.so:system/lib/vendor.qti.hardware.qteeconnector@1.0.so \
     vendor/pantech/ef71/proprietary/lib/vendor.qti.hardware.tui_comm@1.0.so:system/lib/vendor.qti.hardware.tui_comm@1.0.so \
+    vendor/pantech/ef71/proprietary/lib/vendor.qti.ims.callinfo@1.0.so:system/lib/vendor.qti.ims.callinfo@1.0.so \
+    vendor/pantech/ef71/proprietary/lib/vendor.qti.ims.rcsconfig@1.0.so:system/lib/vendor.qti.ims.rcsconfig@1.0.so \
     vendor/pantech/ef71/proprietary/lib/vendor.qti.imsrtpservice@1.0.so:system/lib/vendor.qti.imsrtpservice@1.0.so \
     vendor/pantech/ef71/proprietary/lib64/com.qualcomm.qti.ant@1.0.so:system/lib64/com.qualcomm.qti.ant@1.0.so \
     vendor/pantech/ef71/proprietary/lib64/com.qualcomm.qti.dpm.api@1.0.so:system/lib64/com.qualcomm.qti.dpm.api@1.0.so \
     vendor/pantech/ef71/proprietary/lib64/com.qualcomm.qti.imscmservice@1.0.so:system/lib64/com.qualcomm.qti.imscmservice@1.0.so \
+    vendor/pantech/ef71/proprietary/lib64/com.qualcomm.qti.imscmservice@2.0.so:system/lib64/com.qualcomm.qti.imscmservice@2.0.so \
+    vendor/pantech/ef71/proprietary/lib64/com.qualcomm.qti.imscmservice@2.1.so:system/lib64/com.qualcomm.qti.imscmservice@2.1.so \
     vendor/pantech/ef71/proprietary/lib64/hw/keystore.default.so:system/lib64/hw/keystore.default.so \
     vendor/pantech/ef71/proprietary/lib64/lib-imscamera.so:system/lib64/lib-imscamera.so \
     vendor/pantech/ef71/proprietary/lib64/lib-imsvideocodec.so:system/lib64/lib-imsvideocodec.so \
@@ -154,12 +163,16 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/lib64/vendor.qti.hardware.qdutils_disp@1.0.so:system/lib64/vendor.qti.hardware.qdutils_disp@1.0.so \
     vendor/pantech/ef71/proprietary/lib64/vendor.qti.hardware.qteeconnector@1.0.so:system/lib64/vendor.qti.hardware.qteeconnector@1.0.so \
     vendor/pantech/ef71/proprietary/lib64/vendor.qti.hardware.tui_comm@1.0.so:system/lib64/vendor.qti.hardware.tui_comm@1.0.so \
+    vendor/pantech/ef71/proprietary/lib64/vendor.qti.ims.callinfo@1.0.so:system/lib64/vendor.qti.ims.callinfo@1.0.so \
+    vendor/pantech/ef71/proprietary/lib64/vendor.qti.ims.rcsconfig@1.0.so:system/lib64/vendor.qti.ims.rcsconfig@1.0.so \
     vendor/pantech/ef71/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:system/lib64/vendor.qti.imsrtpservice@1.0.so \
     vendor/pantech/ef71/proprietary/lib64/libstagefright_soft_flacdec.so:system/lib64/libstagefright_soft_flacdec.so \
+    vendor/pantech/ef71/proprietary/vendor/bin/ATFWD-daemon:system/vendor/bin/ATFWD-daemon \
     vendor/pantech/ef71/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
     vendor/pantech/ef71/proprietary/vendor/bin/cnd:system/vendor/bin/cnd \
     vendor/pantech/ef71/proprietary/vendor/bin/dpmQmiMgr:system/vendor/bin/dpmQmiMgr \
     vendor/pantech/ef71/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti:system/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti \
+    vendor/pantech/ef71/proprietary/vendor/bin/hw/qcrild:system/vendor/bin/hw/qcrild \
     vendor/pantech/ef71/proprietary/vendor/bin/hw/vendor.display.color@1.0-service:system/vendor/bin/hw/vendor.display.color@1.0-service \
     vendor/pantech/ef71/proprietary/vendor/bin/hw/vendor.qti.esepowermanager@1.0-service:system/vendor/bin/hw/vendor.qti.esepowermanager@1.0-service \
     vendor/pantech/ef71/proprietary/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service:system/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service \
@@ -229,6 +242,7 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/vendor/etc/drc/drc_cfg_AZ.txt:system/vendor/etc/drc/drc_cfg_AZ.txt \
     vendor/pantech/ef71/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:system/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
     vendor/pantech/ef71/proprietary/vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc:system/vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc \
+    vendor/pantech/ef71/proprietary/vendor/etc/init/qcrild.rc:system/vendor/etc/init/qcrild.rc \
     vendor/pantech/ef71/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:system/vendor/etc/init/vendor.display.color@1.0-service.rc \
     vendor/pantech/ef71/proprietary/vendor/etc/init/vendor.qti.esepowermanager@1.0-service.rc:system/vendor/etc/init/vendor.qti.esepowermanager@1.0-service.rc \
     vendor/pantech/ef71/proprietary/vendor/etc/init/vendor.qti.gnss@1.0-service.rc:system/vendor/etc/init/vendor.qti.gnss@1.0-service.rc \
@@ -262,7 +276,6 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/vendor/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg:system/vendor/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg \
     vendor/pantech/ef71/proprietary/vendor/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg:system/vendor/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg \
     vendor/pantech/ef71/proprietary/vendor/etc/xtra_root_cert.pem:system/vendor/etc/xtra_root_cert.pem \
-    vendor/pantech/ef71/proprietary/vendor/framework/qti-vzw-ims-internal.jar:system/vendor/framework/qti-vzw-ims-internal.jar \
     vendor/pantech/ef71/proprietary/vendor/framework/vendor.qti.hardware.alarm-V1.0-java.jar:system/vendor/framework/vendor.qti.hardware.alarm-V1.0-java.jar \
     vendor/pantech/ef71/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/pantech/ef71/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
@@ -288,7 +301,10 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/vendor/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so:system/vendor/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so \
     vendor/pantech/ef71/proprietary/vendor/lib/hw/vulkan.msm8937.so:system/vendor/lib/hw/vulkan.msm8937.so \
     vendor/pantech/ef71/proprietary/vendor/lib/com.qualcomm.qti.dpm.api@1.0_vendor.so:system/vendor/lib/com.qualcomm.qti.dpm.api@1.0_vendor.so \
-    vendor/pantech/ef71/proprietary/vendor/lib/com.qualcomm.qti.imscmservice@1.0_vendor.so:system/vendor/lib/com.qualcomm.qti.imscmservice@1.0_vendor.so \
+    vendor/pantech/ef71/proprietary/vendor/lib/com.qualcomm.qti.imscmservice@1.0.so:system/vendor/lib/com.qualcomm.qti.imscmservice@1.0.so \
+    vendor/pantech/ef71/proprietary/vendor/lib/com.qualcomm.qti.imscmservice@2.0.so:system/vendor/lib/com.qualcomm.qti.imscmservice@2.0.so \
+    vendor/pantech/ef71/proprietary/vendor/lib/com.qualcomm.qti.imscmservice@2.1.so:system/vendor/lib/com.qualcomm.qti.imscmservice@2.1.so \
+    vendor/pantech/ef71/proprietary/vendor/lib/com.qualcomm.qti.uceservice@2.0.so:system/vendor/lib/com.qualcomm.qti.uceservice@2.0.so \
     vendor/pantech/ef71/proprietary/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so:system/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so \
     vendor/pantech/ef71/proprietary/vendor/lib/com.quicinc.cne.api@1.0.so:system/vendor/lib/com.quicinc.cne.api@1.0.so \
     vendor/pantech/ef71/proprietary/vendor/lib/com.quicinc.cne.constants@1.0.so:system/vendor/lib/com.quicinc.cne.constants@1.0.so \
@@ -300,11 +316,14 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/vendor/lib/lib-imscmservice.so:system/vendor/lib/lib-imscmservice.so \
     vendor/pantech/ef71/proprietary/vendor/lib/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so \
     vendor/pantech/ef71/proprietary/vendor/lib/lib-imsqimf.so:system/vendor/lib/lib-imsqimf.so \
+    vendor/pantech/ef71/proprietary/vendor/lib/lib-imsrcs-v2.so:system/vendor/lib/lib-imsrcs-v2.so \
+    vendor/pantech/ef71/proprietary/vendor/lib/lib-imsrcsbaseimpl.so:system/vendor/lib/lib-imsrcsbaseimpl.so \
     vendor/pantech/ef71/proprietary/vendor/lib/lib-imsxml.so:system/vendor/lib/lib-imsxml.so \
     vendor/pantech/ef71/proprietary/vendor/lib/lib-rtpcommon.so:system/vendor/lib/lib-rtpcommon.so \
     vendor/pantech/ef71/proprietary/vendor/lib/lib-rtpcore.so:system/vendor/lib/lib-rtpcore.so \
     vendor/pantech/ef71/proprietary/vendor/lib/lib-rtpdaemoninterface.so:system/vendor/lib/lib-rtpdaemoninterface.so \
     vendor/pantech/ef71/proprietary/vendor/lib/lib-rtpsl.so:system/vendor/lib/lib-rtpsl.so \
+    vendor/pantech/ef71/proprietary/vendor/lib/lib-siputility.so:system/vendor/lib/lib-siputility.so \
     vendor/pantech/ef71/proprietary/vendor/lib/lib-uceservice.so:system/vendor/lib/lib-uceservice.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libAlacSwDec.so:system/vendor/lib/libAlacSwDec.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libApeSwDec.so:system/vendor/lib/libApeSwDec.so \
@@ -571,6 +590,11 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/vendor/lib/libmmsw_opencl.so:system/vendor/lib/libmmsw_opencl.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libmmsw_platform.so:system/vendor/lib/libmmsw_platform.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
+    vendor/pantech/ef71/proprietary/vendor/lib/libnetmgr_common.so:system/vendor/lib/libnetmgr_common.so \
+    vendor/pantech/ef71/proprietary/vendor/lib/libnetmgr_nr_fusion.so:system/vendor/lib/libnetmgr_nr_fusion.so \
+    vendor/pantech/ef71/proprietary/vendor/lib/libnetmgr_rmnet_ext.so:system/vendor/lib/libnetmgr_rmnet_ext.so \
+    vendor/pantech/ef71/proprietary/vendor/lib/libnlnetmgr.so:system/vendor/lib/libnlnetmgr.so \
+    vendor/pantech/ef71/proprietary/vendor/lib/liboemaids_vendor.so:system/vendor/lib/liboemaids_vendor.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libois_lc898122.so:system/vendor/lib/libois_lc898122.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libomx-dts.so:system/vendor/lib/libomx-dts.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libpdmapper.so:system/vendor/lib/libpdmapper.so \
@@ -581,6 +605,7 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libqcmaputils.so:system/vendor/lib/libqcmaputils.so \
+    vendor/pantech/ef71/proprietary/vendor/lib/libqcrilFramework.so:system/vendor/lib/libqcrilFramework.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libqisl.so:system/vendor/lib/libqisl.so \
@@ -595,11 +620,14 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:system/vendor/lib/libqomx_jpegenc_pipe.so \
+    vendor/pantech/ef71/proprietary/vendor/lib/libqrtr.so:system/vendor/lib/libqrtr.so \
+    vendor/pantech/ef71/proprietary/vendor/lib/libqsocket.so:system/vendor/lib/libqsocket.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libqti-iopd-client.so:system/vendor/lib/libqti-iopd-client.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libqti-perfd.so:system/vendor/lib/libqti-perfd.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libqti-util.so:system/vendor/lib/libqti-util.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
+    vendor/pantech/ef71/proprietary/vendor/lib/libril-qc-hal-qmi.so:system/vendor/lib/libril-qc-hal-qmi.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libril-qc-ltedirectdisc.so:system/vendor/lib/libril-qc-ltedirectdisc.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libril-qc-radioconfig.so:system/vendor/lib/libril-qc-radioconfig.so \
@@ -645,6 +673,7 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
     vendor/pantech/ef71/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+    vendor/pantech/ef71/proprietary/vendor/lib/qcrild_librilutils.so:system/vendor/lib/qcrild_librilutils.so \
     vendor/pantech/ef71/proprietary/vendor/lib/rfsa/adsp/libapps_mem_heap.so:system/vendor/lib/rfsa/adsp/libapps_mem_heap.so \
     vendor/pantech/ef71/proprietary/vendor/lib/rfsa/adsp/libdspCV_skel.so:system/vendor/lib/rfsa/adsp/libdspCV_skel.so \
     vendor/pantech/ef71/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp.so:system/vendor/lib/rfsa/adsp/libfastcvadsp.so \
@@ -672,19 +701,28 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/vendor/lib/vendor.qti.hardware.perf@1.0.so:system/vendor/lib/vendor.qti.hardware.perf@1.0.so \
     vendor/pantech/ef71/proprietary/vendor/lib/vendor.qti.hardware.qdutils_disp@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.qdutils_disp@1.0_vendor.so \
     vendor/pantech/ef71/proprietary/vendor/lib/vendor.qti.hardware.qteeconnector@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.qteeconnector@1.0_vendor.so \
-    vendor/pantech/ef71/proprietary/vendor/lib/vendor.qti.hardware.radio.am@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.radio.am@1.0_vendor.so \
-    vendor/pantech/ef71/proprietary/vendor/lib/vendor.qti.hardware.radio.atcmdfwd@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.radio.atcmdfwd@1.0_vendor.so \
-    vendor/pantech/ef71/proprietary/vendor/lib/vendor.qti.hardware.radio.ims@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.radio.ims@1.0_vendor.so \
-    vendor/pantech/ef71/proprietary/vendor/lib/vendor.qti.hardware.radio.lpa@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.radio.lpa@1.0_vendor.so \
-    vendor/pantech/ef71/proprietary/vendor/lib/vendor.qti.hardware.radio.qcrilhook@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.radio.qcrilhook@1.0_vendor.so \
-    vendor/pantech/ef71/proprietary/vendor/lib/vendor.qti.hardware.radio.qtiradio@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.radio.qtiradio@1.0_vendor.so \
-    vendor/pantech/ef71/proprietary/vendor/lib/vendor.qti.hardware.radio.uim@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.radio.uim@1.0_vendor.so \
-    vendor/pantech/ef71/proprietary/vendor/lib/vendor.qti.hardware.radio.uim_remote_client@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.radio.uim_remote_client@1.0_vendor.so \
-    vendor/pantech/ef71/proprietary/vendor/lib/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so \
+    vendor/pantech/ef71/proprietary/vendor/lib/vendor.qti.hardware.radio.am@1.0.so:system/vendor/lib/vendor.qti.hardware.radio.am@1.0.so \
+    vendor/pantech/ef71/proprietary/vendor/lib/vendor.qti.hardware.radio.atcmdfwd@1.0.so:system/vendor/lib/vendor.qti.hardware.radio.atcmdfwd@1.0.so \
+    vendor/pantech/ef71/proprietary/vendor/lib/vendor.qti.hardware.radio.ims@1.0.so:system/vendor/lib/vendor.qti.hardware.radio.ims@1.0.so \
+    vendor/pantech/ef71/proprietary/vendor/lib/vendor.qti.hardware.radio.ims@1.1.so:system/vendor/lib/vendor.qti.hardware.radio.ims@1.1.so \
+    vendor/pantech/ef71/proprietary/vendor/lib/vendor.qti.hardware.radio.ims@1.2.so:system/vendor/lib/vendor.qti.hardware.radio.ims@1.2.so \
+    vendor/pantech/ef71/proprietary/vendor/lib/vendor.qti.hardware.radio.ims@1.3.so:system/vendor/lib/vendor.qti.hardware.radio.ims@1.3.so \
+    vendor/pantech/ef71/proprietary/vendor/lib/vendor.qti.hardware.radio.ims@1.4.so:system/vendor/lib/vendor.qti.hardware.radio.ims@1.4.so \
+    vendor/pantech/ef71/proprietary/vendor/lib/vendor.qti.hardware.radio.lpa@1.0.so:system/vendor/lib/vendor.qti.hardware.radio.lpa@1.0.so \
+    vendor/pantech/ef71/proprietary/vendor/lib/vendor.qti.hardware.radio.qcrilhook@1.0.so:system/vendor/lib/vendor.qti.hardware.radio.qcrilhook@1.0.so \
+    vendor/pantech/ef71/proprietary/vendor/lib/vendor.qti.hardware.radio.qtiradio@1.0.so:system/vendor/lib/vendor.qti.hardware.radio.qtiradio@1.0.so \
+    vendor/pantech/ef71/proprietary/vendor/lib/vendor.qti.hardware.radio.qtiradio@2.0.so:system/vendor/lib/vendor.qti.hardware.radio.qtiradio@2.0.so \
+    vendor/pantech/ef71/proprietary/vendor/lib/vendor.qti.hardware.radio.uim@1.0.so:system/vendor/lib/vendor.qti.hardware.radio.uim@1.0.so \
+    vendor/pantech/ef71/proprietary/vendor/lib/vendor.qti.hardware.radio.uim@1.1.so:system/vendor/lib/vendor.qti.hardware.radio.uim@1.1.so \
+    vendor/pantech/ef71/proprietary/vendor/lib/vendor.qti.hardware.radio.uim_remote_client@1.0.so:system/vendor/lib/vendor.qti.hardware.radio.uim_remote_client@1.0.so \
+    vendor/pantech/ef71/proprietary/vendor/lib/vendor.qti.hardware.radio.uim_remote_server@1.0.so:system/vendor/lib/vendor.qti.hardware.radio.uim_remote_server@1.0.so \
     vendor/pantech/ef71/proprietary/vendor/lib/vendor.qti.hardware.tui_comm@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.tui_comm@1.0_vendor.so \
+    vendor/pantech/ef71/proprietary/vendor/lib/vendor.qti.ims.callinfo@1.0.so:system/vendor/lib/vendor.qti.ims.callinfo@1.0.so \
+    vendor/pantech/ef71/proprietary/vendor/lib/vendor.qti.ims.rcsconfig@1.0.so:system/vendor/lib/vendor.qti.ims.rcsconfig@1.0.so \
+    vendor/pantech/ef71/proprietary/vendor/lib/vendor.qti.imsrtpservice@1.0-service-Impl.so:system/vendor/lib/vendor.qti.imsrtpservice@1.0-service-Impl.so \
+    vendor/pantech/ef71/proprietary/vendor/lib/vendor.qti.imsrtpservice@1.0.so:system/vendor/lib/vendor.qti.imsrtpservice@1.0.so \
     vendor/pantech/ef71/proprietary/vendor/lib/vendor.qti.hardware.data.latency@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.data.latency@1.0_vendor.so \
     vendor/pantech/ef71/proprietary/vendor/lib/vendor.qti.imsrtpservice@1.0-service-Impl.so:system/vendor/lib/vendor.qti.imsrtpservice@1.0-service-Impl.so \
-    vendor/pantech/ef71/proprietary/vendor/lib/vendor.qti.imsrtpservice@1.0_vendor.so:system/vendor/lib/vendor.qti.imsrtpservice@1.0_vendor.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/egl/eglsubAndroid.so:system/vendor/lib64/egl/eglsubAndroid.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
@@ -712,7 +750,10 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/vendor/lib64/hw/vulkan.msm8937.so:system/vendor/lib64/hw/vulkan.msm8937.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/com.qualcomm.qti.ant@1.0_vendor.so:system/vendor/lib64/com.qualcomm.qti.ant@1.0_vendor.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/com.qualcomm.qti.dpm.api@1.0_vendor.so:system/vendor/lib64/com.qualcomm.qti.dpm.api@1.0_vendor.so \
-    vendor/pantech/ef71/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@1.0_vendor.so:system/vendor/lib64/com.qualcomm.qti.imscmservice@1.0_vendor.so \
+    vendor/pantech/ef71/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@1.0.so:system/vendor/lib64/com.qualcomm.qti.imscmservice@1.0.so \
+    vendor/pantech/ef71/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@2.0.so:system/vendor/lib64/com.qualcomm.qti.imscmservice@2.0.so \
+    vendor/pantech/ef71/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@2.1.so:system/vendor/lib64/com.qualcomm.qti.imscmservice@2.1.so \
+    vendor/pantech/ef71/proprietary/vendor/lib64/com.qualcomm.qti.uceservice@2.0.so:system/vendor/lib64/com.qualcomm.qti.uceservice@2.0.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/com.quicinc.cne.api@1.0.so:system/vendor/lib64/com.quicinc.cne.api@1.0.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/com.quicinc.cne.constants@1.0.so:system/vendor/lib64/com.quicinc.cne.constants@1.0.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/com.quicinc.cne.constants@2.0.so:system/vendor/lib64/com.quicinc.cne.constants@2.0.so \
@@ -723,13 +764,15 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/vendor/lib64/lib-imscmservice.so:system/vendor/lib64/lib-imscmservice.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/lib-imsdpl.so:system/vendor/lib64/lib-imsdpl.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/lib-imsqimf.so:system/vendor/lib64/lib-imsqimf.so \
+    vendor/pantech/ef71/proprietary/vendor/lib64/lib-imsrcs-v2.so:system/vendor/lib64/lib-imsrcs-v2.so \
+    vendor/pantech/ef71/proprietary/vendor/lib64/lib-imsrcsbaseimpl.so:system/vendor/lib64/lib-imsrcsbaseimpl.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/lib-imsxml.so:system/vendor/lib64/lib-imsxml.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/lib-rtpcommon.so:system/vendor/lib64/lib-rtpcommon.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/lib-rtpcore.so:system/vendor/lib64/lib-rtpcore.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/lib-rtpdaemoninterface.so:system/vendor/lib64/lib-rtpdaemoninterface.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/lib-rtpsl.so:system/vendor/lib64/lib-rtpsl.so \
+    vendor/pantech/ef71/proprietary/vendor/lib64/lib-siputility.so:system/vendor/lib64/lib-siputility.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/lib-uceservice.so:system/vendor/lib64/lib-uceservice.so \
-    vendor/pantech/ef71/proprietary/vendor/lib64/lib-sec-disp.so:system/vendor/lib64/lib-sec-disp.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libAlacSwDec.so:system/vendor/lib64/libAlacSwDec.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libApeSwDec.so:system/vendor/lib64/libApeSwDec.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libC2D2.so:system/vendor/lib64/libC2D2.so \
@@ -832,6 +875,11 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/vendor/lib64/libmm-qdcm.so:system/vendor/lib64/libmm-qdcm.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libmmosal.so:system/vendor/lib64/libmmosal.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
+    vendor/pantech/ef71/proprietary/vendor/lib64/libnetmgr_common.so:system/vendor/lib64/libnetmgr_common.so \
+    vendor/pantech/ef71/proprietary/vendor/lib64/libnetmgr_nr_fusion.so:system/vendor/lib64/libnetmgr_nr_fusion.so \
+    vendor/pantech/ef71/proprietary/vendor/lib64/libnetmgr_rmnet_ext.so:system/vendor/lib64/libnetmgr_rmnet_ext.so \
+    vendor/pantech/ef71/proprietary/vendor/lib64/libnlnetmgr.so:system/vendor/lib64/libnlnetmgr.so \
+    vendor/pantech/ef71/proprietary/vendor/lib64/liboemaids_vendor.so:system/vendor/lib64/liboemaids_vendor.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libpdmapper.so:system/vendor/lib64/libpdmapper.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libpdnotifier.so:system/vendor/lib64/libpdnotifier.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libperfgluelayer.so:system/vendor/lib64/libperfgluelayer.so \
@@ -839,6 +887,7 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/vendor/lib64/libqc-opt.so:system/vendor/lib64/libqc-opt.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libqcci_legacy.so:system/vendor/lib64/libqcci_legacy.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libqcmaputils.so:system/vendor/lib64/libqcmaputils.so \
+    vendor/pantech/ef71/proprietary/vendor/lib64/libqcrilFramework.so:system/vendor/lib64/libqcrilFramework.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libqdi.so:system/vendor/lib64/libqdi.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libqdp.so:system/vendor/lib64/libqdp.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libqisl.so:system/vendor/lib64/libqisl.so \
@@ -850,11 +899,14 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/vendor/lib64/libqmi_csi.so:system/vendor/lib64/libqmi_csi.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libqmi_encdec.so:system/vendor/lib64/libqmi_encdec.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libqmiservices.so:system/vendor/lib64/libqmiservices.so \
+    vendor/pantech/ef71/proprietary/vendor/lib64/libqrtr.so:system/vendor/lib64/libqrtr.so \
+    vendor/pantech/ef71/proprietary/vendor/lib64/libqsocket.so:system/vendor/lib64/libqsocket.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libqti-iopd-client.so:system/vendor/lib64/libqti-iopd-client.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libqti-perfd.so:system/vendor/lib64/libqti-perfd.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libqti-util.so:system/vendor/lib64/libqti-util.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libquipc_os_api.so:system/vendor/lib64/libquipc_os_api.so \
+    vendor/pantech/ef71/proprietary/vendor/lib64/libril-qc-hal-qmi.so:system/vendor/lib64/libril-qc-hal-qmi.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libril-qc-ltedirectdisc.so:system/vendor/lib64/libril-qc-ltedirectdisc.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libril-qc-qmi-1.so:system/vendor/lib64/libril-qc-qmi-1.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libril-qc-radioconfig.so:system/vendor/lib64/libril-qc-radioconfig.so \
@@ -888,6 +940,7 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
+    vendor/pantech/ef71/proprietary/vendor/lib64/qcrild_librilutils.so:system/vendor/lib64/qcrild_librilutils.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/sensor_calibrate.so:system/vendor/lib64/sensor_calibrate.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/soundfx/libasphere.so:system/vendor/lib64/soundfx/libasphere.so \
@@ -907,18 +960,26 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/vendor/lib64/vendor.qti.hardware.perf@1.0.so:system/vendor/lib64/vendor.qti.hardware.perf@1.0.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0_vendor.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/vendor.qti.hardware.qteeconnector@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.qteeconnector@1.0_vendor.so \
-    vendor/pantech/ef71/proprietary/vendor/lib64/vendor.qti.hardware.radio.am@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.radio.am@1.0_vendor.so \
-    vendor/pantech/ef71/proprietary/vendor/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0_vendor.so \
-    vendor/pantech/ef71/proprietary/vendor/lib64/vendor.qti.hardware.radio.ims@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.radio.ims@1.0_vendor.so \
-    vendor/pantech/ef71/proprietary/vendor/lib64/vendor.qti.hardware.radio.lpa@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.radio.lpa@1.0_vendor.so \
-    vendor/pantech/ef71/proprietary/vendor/lib64/vendor.qti.hardware.radio.qcrilhook@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.radio.qcrilhook@1.0_vendor.so \
-    vendor/pantech/ef71/proprietary/vendor/lib64/vendor.qti.hardware.radio.qtiradio@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.radio.qtiradio@1.0_vendor.so \
-    vendor/pantech/ef71/proprietary/vendor/lib64/vendor.qti.hardware.radio.uim@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.radio.uim@1.0_vendor.so \
-    vendor/pantech/ef71/proprietary/vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0_vendor.so \
-    vendor/pantech/ef71/proprietary/vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so \
+    vendor/pantech/ef71/proprietary/vendor/lib64/vendor.qti.hardware.radio.am@1.0.so:system/vendor/lib64/vendor.qti.hardware.radio.am@1.0.so \
+    vendor/pantech/ef71/proprietary/vendor/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0.so:system/vendor/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0.so \
+    vendor/pantech/ef71/proprietary/vendor/lib64/vendor.qti.hardware.radio.ims@1.0.so:system/vendor/lib64/vendor.qti.hardware.radio.ims@1.0.so \
+    vendor/pantech/ef71/proprietary/vendor/lib64/vendor.qti.hardware.radio.ims@1.1.so:system/vendor/lib64/vendor.qti.hardware.radio.ims@1.1.so \
+    vendor/pantech/ef71/proprietary/vendor/lib64/vendor.qti.hardware.radio.ims@1.2.so:system/vendor/lib64/vendor.qti.hardware.radio.ims@1.2.so \
+    vendor/pantech/ef71/proprietary/vendor/lib64/vendor.qti.hardware.radio.ims@1.3.so:system/vendor/lib64/vendor.qti.hardware.radio.ims@1.3.so \
+    vendor/pantech/ef71/proprietary/vendor/lib64/vendor.qti.hardware.radio.ims@1.4.so:system/vendor/lib64/vendor.qti.hardware.radio.ims@1.4.so \
+    vendor/pantech/ef71/proprietary/vendor/lib64/vendor.qti.hardware.radio.lpa@1.0.so:system/vendor/lib64/vendor.qti.hardware.radio.lpa@1.0.so \
+    vendor/pantech/ef71/proprietary/vendor/lib64/vendor.qti.hardware.radio.qcrilhook@1.0.so:system/vendor/lib64/vendor.qti.hardware.radio.qcrilhook@1.0.so \
+    vendor/pantech/ef71/proprietary/vendor/lib64/vendor.qti.hardware.radio.qtiradio@1.0.so:system/vendor/lib64/vendor.qti.hardware.radio.qtiradio@1.0.so \
+    vendor/pantech/ef71/proprietary/vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.0.so:system/vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.0.so \
+    vendor/pantech/ef71/proprietary/vendor/lib64/vendor.qti.hardware.radio.uim@1.0.so:system/vendor/lib64/vendor.qti.hardware.radio.uim@1.0.so \
+    vendor/pantech/ef71/proprietary/vendor/lib64/vendor.qti.hardware.radio.uim@1.1.so:system/vendor/lib64/vendor.qti.hardware.radio.uim@1.1.so \
+    vendor/pantech/ef71/proprietary/vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0.so:system/vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0.so \
+    vendor/pantech/ef71/proprietary/vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so:system/vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/vendor.qti.hardware.tui_comm@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.tui_comm@1.0_vendor.so \
+    vendor/pantech/ef71/proprietary/vendor/lib64/vendor.qti.ims.callinfo@1.0.so:system/vendor/lib64/vendor.qti.ims.callinfo@1.0.so \
+    vendor/pantech/ef71/proprietary/vendor/lib64/vendor.qti.ims.rcsconfig@1.0.so:system/vendor/lib64/vendor.qti.ims.rcsconfig@1.0.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so:system/vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so \
-    vendor/pantech/ef71/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0_vendor.so:system/vendor/lib64/vendor.qti.imsrtpservice@1.0_vendor.so \
+    vendor/pantech/ef71/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0.so:system/vendor/lib64/vendor.qti.imsrtpservice@1.0.so \
     vendor/pantech/ef71/proprietary/vendor/radio/qcril_database/qcril.db:system/vendor/radio/qcril_database/qcril.db
 
 PRODUCT_PACKAGES += \
@@ -929,7 +990,6 @@ PRODUCT_PACKAGES += \
     libts_face_beautify_hal \
     QtiTelephonyService \
     TimeService \
-    datastatusnotification \
     dpmserviceapp \
     CNEService \
     com.qualcomm.location \
@@ -944,8 +1004,15 @@ PRODUCT_PACKAGES += \
     com.quicinc.cne.api-V1.0-java \
     com.quicinc.cne \
     colorservice \
-    SimSettings \
-    radioconfig \
+    uceShimService \
+    uimlpalibrary \
+    uimremotesimlocklibrary \
+    com.qualcomm.qti.imscmservice-V2.0-java \
+    com.qualcomm.qti.imscmservice-V2.1-java \
+    com.qualcomm.qti.uceservice-V2.0-java \
+    vendor.qti.ims.callinfo-V1.0-java \
+    vendor.qti.ims.rcsconfig-V1.0-java \
+    embmslibrary \
     libgpustats \
     vendor.qti.hardware.iop@1.0 \
     libloc_api_v02 \
