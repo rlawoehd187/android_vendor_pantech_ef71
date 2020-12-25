@@ -19,7 +19,6 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/pantech/ef71/proprietary/bin/wfdservice:system/bin/wfdservice \
     vendor/pantech/ef71/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
-    vendor/pantech/ef71/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
     vendor/pantech/ef71/proprietary/etc/init/dpmd.rc:system/etc/init/dpmd.rc \
     vendor/pantech/ef71/proprietary/etc/init/wfdservice.rc:system/etc/init/wfdservice.rc \
     vendor/pantech/ef71/proprietary/etc/firmware/ice40.bin:system/etc/firmware/ice40.bin \
@@ -69,7 +68,6 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/lib/libdpmctmgr.so:system/lib/libdpmctmgr.so \
     vendor/pantech/ef71/proprietary/lib/libdpmfdmgr.so:system/lib/libdpmfdmgr.so \
     vendor/pantech/ef71/proprietary/lib/libdpmframework.so:system/lib/libdpmframework.so \
-    vendor/pantech/ef71/proprietary/lib/libdpmnsrm.so:system/lib/libdpmnsrm.so \
     vendor/pantech/ef71/proprietary/lib/libdpmtcm.so:system/lib/libdpmtcm.so \
     vendor/pantech/ef71/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
     vendor/pantech/ef71/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
@@ -133,7 +131,6 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/lib64/libdpmctmgr.so:system/lib64/libdpmctmgr.so \
     vendor/pantech/ef71/proprietary/lib64/libdpmfdmgr.so:system/lib64/libdpmfdmgr.so \
     vendor/pantech/ef71/proprietary/lib64/libdpmframework.so:system/lib64/libdpmframework.so \
-    vendor/pantech/ef71/proprietary/lib64/libdpmnsrm.so:system/lib64/libdpmnsrm.so \
     vendor/pantech/ef71/proprietary/lib64/libdpmtcm.so:system/lib64/libdpmtcm.so \
     vendor/pantech/ef71/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
     vendor/pantech/ef71/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
@@ -305,7 +302,7 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/vendor/lib/hw/vendor.qti.hardware.iop@2.0-impl.so:system/vendor/lib/hw/vendor.qti.hardware.iop@2.0-impl.so \
     vendor/pantech/ef71/proprietary/vendor/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so:system/vendor/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so \
     vendor/pantech/ef71/proprietary/vendor/lib/hw/vulkan.msm8937.so:system/vendor/lib/hw/vulkan.msm8937.so \
-    vendor/pantech/ef71/proprietary/vendor/lib/com.qualcomm.qti.dpm.api@1.0_vendor.so:system/vendor/lib/com.qualcomm.qti.dpm.api@1.0_vendor.so \
+    vendor/pantech/ef71/proprietary/vendor/lib/com.qualcomm.qti.dpm.api@1.0.so:system/vendor/lib/com.qualcomm.qti.dpm.api@1.0.so \
     vendor/pantech/ef71/proprietary/vendor/lib/com.qualcomm.qti.imscmservice@1.0.so:system/vendor/lib/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/pantech/ef71/proprietary/vendor/lib/com.qualcomm.qti.imscmservice@2.0.so:system/vendor/lib/com.qualcomm.qti.imscmservice@2.0.so \
     vendor/pantech/ef71/proprietary/vendor/lib/com.qualcomm.qti.imscmservice@2.1.so:system/vendor/lib/com.qualcomm.qti.imscmservice@2.1.so \
@@ -763,7 +760,7 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/vendor/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so:system/vendor/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/hw/vulkan.msm8937.so:system/vendor/lib64/hw/vulkan.msm8937.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/com.qualcomm.qti.ant@1.0_vendor.so:system/vendor/lib64/com.qualcomm.qti.ant@1.0_vendor.so \
-    vendor/pantech/ef71/proprietary/vendor/lib64/com.qualcomm.qti.dpm.api@1.0_vendor.so:system/vendor/lib64/com.qualcomm.qti.dpm.api@1.0_vendor.so \
+    vendor/pantech/ef71/proprietary/vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so:system/vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@1.0.so:system/vendor/lib64/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@2.0.so:system/vendor/lib64/com.qualcomm.qti.imscmservice@2.0.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@2.1.so:system/vendor/lib64/com.qualcomm.qti.imscmservice@2.1.so \
