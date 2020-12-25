@@ -208,18 +208,6 @@ LOCAL_MODULE_SUFFIX := .jar
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := colorservice
-LOCAL_MODULE_OWNER := pantech
-LOCAL_SRC_FILES := proprietary/vendor/app/colorservice/colorservice.apk
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := APPS
-LOCAL_DEX_PREOPT := false
-LOCAL_MODULE_SUFFIX := .apk
-LOCAL_PROPRIETARY_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := libantradio
 LOCAL_MODULE_OWNER := pantech
 LOCAL_SRC_FILES_64 := proprietary/lib64/libantradio.so
@@ -383,6 +371,16 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.qti.ims.rcsconfig-V1.0-java
 LOCAL_MODULE_OWNER := pantech
 LOCAL_SRC_FILES := proprietary/framework/vendor.qti.ims.rcsconfig-V1.0-java.jar
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := .jar
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := com.qti.snapdragon.sdk.display
+LOCAL_MODULE_OWNER := pantech
+LOCAL_SRC_FILES := proprietary/framework/com.qti.snapdragon.sdk.display.jar
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
