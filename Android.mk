@@ -31,16 +31,6 @@ LOCAL_MODULE_SUFFIX := .apk
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := cneapiclient
-LOCAL_MODULE_OWNER := pantech
-LOCAL_SRC_FILES := proprietary/framework/cneapiclient.jar
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := JAVA_LIBRARIES
-LOCAL_MODULE_SUFFIX := .jar
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := com.qti.location.sdk
 LOCAL_MODULE_OWNER := pantech
 LOCAL_SRC_FILES := proprietary/framework/com.qti.location.sdk.jar
@@ -61,106 +51,6 @@ LOCAL_MODULE_SUFFIX := .jar
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := com.quicinc.cne.api-V1.0-java
-LOCAL_MODULE_OWNER := pantech
-LOCAL_SRC_FILES := proprietary/framework/com.quicinc.cne.api-V1.0-java.jar
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := JAVA_LIBRARIES
-LOCAL_MODULE_SUFFIX := .jar
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := com.quicinc.cne.api-V1.1-java
-LOCAL_MODULE_OWNER := pantech
-LOCAL_SRC_FILES := proprietary/framework/com.quicinc.cne.api-V1.1-java.jar
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := JAVA_LIBRARIES
-LOCAL_MODULE_SUFFIX := .jar
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := com.quicinc.cne.constants-V1.0-java
-LOCAL_MODULE_OWNER := pantech
-LOCAL_SRC_FILES := proprietary/framework/com.quicinc.cne.constants-V1.0-java.jar
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := JAVA_LIBRARIES
-LOCAL_MODULE_SUFFIX := .jar
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := com.quicinc.cne.constants-V2.0-java
-LOCAL_MODULE_OWNER := pantech
-LOCAL_SRC_FILES := proprietary/framework/com.quicinc.cne.constants-V2.0-java.jar
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := JAVA_LIBRARIES
-LOCAL_MODULE_SUFFIX := .jar
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := com.quicinc.cne.constants-V2.1-java
-LOCAL_MODULE_OWNER := pantech
-LOCAL_SRC_FILES := proprietary/framework/com.quicinc.cne.constants-V2.1-java.jar
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := JAVA_LIBRARIES
-LOCAL_MODULE_SUFFIX := .jar
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := com.quicinc.cne
-LOCAL_MODULE_OWNER := pantech
-LOCAL_SRC_FILES := proprietary/framework/com.quicinc.cne.jar
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := JAVA_LIBRARIES
-LOCAL_MODULE_SUFFIX := .jar
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := com.quicinc.cne.server-V1.0-java
-LOCAL_MODULE_OWNER := pantech
-LOCAL_SRC_FILES := proprietary/framework/com.quicinc.cne.server-V1.0-java.jar
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := JAVA_LIBRARIES
-LOCAL_MODULE_SUFFIX := .jar
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := com.quicinc.cne.server-V2.0-java
-LOCAL_MODULE_OWNER := pantech
-LOCAL_SRC_FILES := proprietary/framework/com.quicinc.cne.server-V2.0-java.jar
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := JAVA_LIBRARIES
-LOCAL_MODULE_SUFFIX := .jar
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := com.quicinc.cne.server-V2.1-java
-LOCAL_MODULE_OWNER := pantech
-LOCAL_SRC_FILES := proprietary/framework/com.quicinc.cne.server-V2.1-java.jar
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := JAVA_LIBRARIES
-LOCAL_MODULE_SUFFIX := .jar
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := com.quicinc.cne.server-V2.2-java
-LOCAL_MODULE_OWNER := pantech
-LOCAL_SRC_FILES := proprietary/framework/com.quicinc.cne.server-V2.2-java.jar
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := JAVA_LIBRARIES
-LOCAL_MODULE_SUFFIX := .jar
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := izat.xt.srv
 LOCAL_MODULE_OWNER := pantech
 LOCAL_SRC_FILES := proprietary/framework/izat.xt.srv.jar
@@ -174,56 +64,6 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := qcrilhook
 LOCAL_MODULE_OWNER := pantech
 LOCAL_SRC_FILES := proprietary/framework/qcrilhook.jar
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := JAVA_LIBRARIES
-LOCAL_MODULE_SUFFIX := .jar
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := vendor.qti.data.factory-V1.0-java
-LOCAL_MODULE_OWNER := pantech
-LOCAL_SRC_FILES := proprietary/framework/vendor.qti.data.factory-V1.0-java.jar
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := JAVA_LIBRARIES
-LOCAL_MODULE_SUFFIX := .jar
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := vendor.qti.hardware.data.dynamicdds-V1.0-java
-LOCAL_MODULE_OWNER := pantech
-LOCAL_SRC_FILES := proprietary/framework/vendor.qti.hardware.data.dynamicdds-V1.0-java.jar
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := JAVA_LIBRARIES
-LOCAL_MODULE_SUFFIX := .jar
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := vendor.qti.hardware.data.latency-V1.0-java
-LOCAL_MODULE_OWNER := pantech
-LOCAL_SRC_FILES := proprietary/framework/vendor.qti.hardware.data.latency-V1.0-java.jar
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := JAVA_LIBRARIES
-LOCAL_MODULE_SUFFIX := .jar
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := vendor.qti.hardware.data.qmi-V1.0-java
-LOCAL_MODULE_OWNER := pantech
-LOCAL_SRC_FILES := proprietary/framework/vendor.qti.hardware.data.qmi-V1.0-java.jar
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := JAVA_LIBRARIES
-LOCAL_MODULE_SUFFIX := .jar
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := vendor.qti.latency-V2.0-java
-LOCAL_MODULE_OWNER := pantech
-LOCAL_SRC_FILES := proprietary/framework/vendor.qti.latency-V2.0-java.jar
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
