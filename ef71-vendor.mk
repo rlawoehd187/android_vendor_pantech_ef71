@@ -153,6 +153,8 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/vendor/bin/hw/android.hardware.drm@1.1-service.widevine:system/vendor/bin/hw/android.hardware.drm@1.1-service.widevine \
     vendor/pantech/ef71/proprietary/vendor/bin/hw/vendor.display.color@1.0-service:system/vendor/bin/hw/vendor.display.color@1.0-service \
     vendor/pantech/ef71/proprietary/vendor/bin/hw/vendor.qti.esepowermanager@1.0-service:system/vendor/bin/hw/vendor.qti.esepowermanager@1.0-service \
+    vendor/pantech/ef71/proprietary/vendor/bin/hw/vendor.qti.gnss@1.0-service:system/vendor/bin/hw/vendor.qti.gnss@1.0-service \
+    vendor/pantech/ef71/proprietary/vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service:system/vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service \
     vendor/pantech/ef71/proprietary/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service:system/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service \
     vendor/pantech/ef71/proprietary/vendor/bin/hw/vendor.qti.hardware.qdutils_disp@1.0-service-qti:system/vendor/bin/hw/vendor.qti.hardware.qdutils_disp@1.0-service-qti \
     vendor/pantech/ef71/proprietary/vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service:system/vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service \
@@ -180,6 +182,7 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/vendor/bin/msm_irqbalance:system/vendor/bin/msm_irqbalance \
     vendor/pantech/ef71/proprietary/vendor/bin/pm-proxy:system/vendor/bin/pm-proxy \
     vendor/pantech/ef71/proprietary/vendor/bin/pm-service:system/vendor/bin/pm-service \
+    vendor/pantech/ef71/proprietary/vendor/bin/power_off_alarm:system/vendor/bin/power_off_alarm \
     vendor/pantech/ef71/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd \
     vendor/pantech/ef71/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/pantech/ef71/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
@@ -220,6 +223,7 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:system/vendor/etc/init/vendor.display.color@1.0-service.rc \
     vendor/pantech/ef71/proprietary/vendor/etc/init/vendor.qti.esepowermanager@1.0-service.rc:system/vendor/etc/init/vendor.qti.esepowermanager@1.0-service.rc \
     vendor/pantech/ef71/proprietary/vendor/etc/init/vendor.qti.gnss@1.0-service.rc:system/vendor/etc/init/vendor.qti.gnss@1.0-service.rc \
+    vendor/pantech/ef71/proprietary/vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc:system/vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc \
     vendor/pantech/ef71/proprietary/vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc:system/vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc \
     vendor/pantech/ef71/proprietary/vendor/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc:system/vendor/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc \
     vendor/pantech/ef71/proprietary/vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc:system/vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc \
@@ -257,7 +261,6 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/vendor/etc/sound_trigger_mixer_paths_wcd9330.xml:system/vendor/etc/sound_trigger_mixer_paths_wcd9330.xml \
     vendor/pantech/ef71/proprietary/vendor/etc/sound_trigger_mixer_paths_wcd9335.xml:system/vendor/etc/sound_trigger_mixer_paths_wcd9335.xml \
     vendor/pantech/ef71/proprietary/vendor/etc/xtra_root_cert.pem:system/vendor/etc/xtra_root_cert.pem \
-    vendor/pantech/ef71/proprietary/vendor/framework/vendor.qti.hardware.alarm-V1.0-java.jar:system/vendor/framework/vendor.qti.hardware.alarm-V1.0-java.jar \
     vendor/pantech/ef71/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/pantech/ef71/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/pantech/ef71/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
@@ -656,7 +659,6 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/vendor/lib/vendor.qti.gnss@1.2.so:system/vendor/lib/vendor.qti.gnss@1.2.so \
     vendor/pantech/ef71/proprietary/vendor/lib/vendor.qti.gnss@2.0.so:system/vendor/lib/vendor.qti.gnss@2.0.so \
     vendor/pantech/ef71/proprietary/vendor/lib/vendor.qti.gnss@2.1.so:system/vendor/lib/vendor.qti.gnss@2.1.so \
-    vendor/pantech/ef71/proprietary/vendor/lib/vendor.qti.hardware.alarm@1.0.so:system/vendor/lib/vendor.qti.hardware.alarm@1.0.so \
     vendor/pantech/ef71/proprietary/vendor/lib/vendor.qti.hardware.data.dynamicdds@1.0.so:system/vendor/lib/vendor.qti.hardware.data.dynamicdds@1.0.so \
     vendor/pantech/ef71/proprietary/vendor/lib/vendor.qti.hardware.data.latency@1.0.so:system/vendor/lib/vendor.qti.hardware.data.latency@1.0.so \
     vendor/pantech/ef71/proprietary/vendor/lib/vendor.qti.hardware.data.qmi@1.0.so:system/vendor/lib/vendor.qti.hardware.data.qmi@1.0.so \
@@ -702,6 +704,7 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/vendor/lib64/hw/sound_trigger.primary.msm8937.so:system/vendor/lib64/hw/sound_trigger.primary.msm8937.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/hw/vendor.qti.esepowermanager@1.0-impl.so:system/vendor/lib64/hw/vendor.qti.esepowermanager@1.0-impl.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/hw/vendor.qti.gnss@1.0-impl.so:system/vendor/lib64/hw/vendor.qti.gnss@1.0-impl.so \
+    vendor/pantech/ef71/proprietary/vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so:system/vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/hw/vendor.qti.hardware.iop@2.0-impl.so:system/vendor/lib64/hw/vendor.qti.hardware.iop@2.0-impl.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so:system/vendor/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/hw/vulkan.msm8937.so:system/vendor/lib64/hw/vulkan.msm8937.so \
@@ -959,6 +962,7 @@ PRODUCT_PACKAGES += \
     CNEService \
     com.qualcomm.location \
     qcrilmsgtunnel \
+    PowerOffAlarm \
     com.qti.location.sdk \
     izat.xt.srv \
     qcrilhook \
