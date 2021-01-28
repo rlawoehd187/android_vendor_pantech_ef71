@@ -62,7 +62,6 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/lib/librcc.so:system/lib/librcc.so \
     vendor/pantech/ef71/proprietary/lib/libsdm-disp-apis.so:system/lib/libsdm-disp-apis.so \
     vendor/pantech/ef71/proprietary/lib/libqct_resampler.so:system/lib/libqct_resampler.so \
-    vendor/pantech/ef71/proprietary/lib/libstagefright_soft_flacdec.so:system/lib/libstagefright_soft_flacdec.so \
     vendor/pantech/ef71/proprietary/lib/libwfdavenhancements.so:system/lib/libwfdavenhancements.so \
     vendor/pantech/ef71/proprietary/lib/libwfdclient.so:system/lib/libwfdclient.so \
     vendor/pantech/ef71/proprietary/lib/libwfdcodecv4l2.so:system/lib/libwfdcodecv4l2.so \
@@ -90,7 +89,6 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/lib/vendor.qti.gnss@1.2.so:system/lib/vendor.qti.gnss@1.2.so \
     vendor/pantech/ef71/proprietary/lib/vendor.qti.gnss@2.0.so:system/lib/vendor.qti.gnss@2.0.so \
     vendor/pantech/ef71/proprietary/lib/vendor.qti.gnss@2.1.so:system/lib/vendor.qti.gnss@2.1.so \
-    vendor/pantech/ef71/proprietary/lib/vendor.qti.hardware.iop@1.0.so:system/lib/vendor.qti.hardware.iop@1.0.so \
     vendor/pantech/ef71/proprietary/lib/vendor.qti.hardware.iop@2.0.so:system/lib/vendor.qti.hardware.iop@2.0.so \
     vendor/pantech/ef71/proprietary/lib/vendor.qti.hardware.perf@1.0.so:system/lib/vendor.qti.hardware.perf@1.0.so \
     vendor/pantech/ef71/proprietary/lib/vendor.qti.hardware.qdutils_disp@1.0.so:system/lib/vendor.qti.hardware.qdutils_disp@1.0.so \
@@ -137,7 +135,6 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/lib64/vendor.qti.gnss@1.2.so:system/lib64/vendor.qti.gnss@1.2.so \
     vendor/pantech/ef71/proprietary/lib64/vendor.qti.gnss@2.0.so:system/lib64/vendor.qti.gnss@2.0.so \
     vendor/pantech/ef71/proprietary/lib64/vendor.qti.gnss@2.1.so:system/lib64/vendor.qti.gnss@2.1.so \
-    vendor/pantech/ef71/proprietary/lib64/vendor.qti.hardware.iop@1.0.so:system/lib64/vendor.qti.hardware.iop@1.0.so \
     vendor/pantech/ef71/proprietary/lib64/vendor.qti.hardware.iop@2.0.so:system/lib64/vendor.qti.hardware.iop@2.0.so \
     vendor/pantech/ef71/proprietary/lib64/vendor.qti.hardware.perf@1.0.so:system/lib64/vendor.qti.hardware.perf@1.0.so \
     vendor/pantech/ef71/proprietary/lib64/vendor.qti.hardware.qdutils_disp@1.0.so:system/lib64/vendor.qti.hardware.qdutils_disp@1.0.so \
@@ -646,7 +643,6 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/vendor/lib/sensors.ssc.so:system/vendor/lib/sensors.ssc.so \
     vendor/pantech/ef71/proprietary/vendor/lib/soundfx/libasphere.so:system/vendor/lib/soundfx/libasphere.so \
     vendor/pantech/ef71/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
-    vendor/pantech/ef71/proprietary/vendor/lib/soundfx/libqcomvisualizer.so:system/vendor/lib/soundfx/libqcomvisualizer.so \
     vendor/pantech/ef71/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/pantech/ef71/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
     vendor/pantech/ef71/proprietary/vendor/lib/vendor.display.color@1.0.so:system/vendor/lib/vendor.display.color@1.0.so \
@@ -902,7 +898,6 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/soundfx/libasphere.so:system/vendor/lib64/soundfx/libasphere.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/soundfx/libqcbassboost.so:system/vendor/lib64/soundfx/libqcbassboost.so \
-    vendor/pantech/ef71/proprietary/vendor/lib64/soundfx/libqcomvisualizer.so:system/vendor/lib64/soundfx/libqcomvisualizer.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/soundfx/libqcvirt.so:system/vendor/lib64/soundfx/libqcvirt.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/vendor.display.color@1.0.so:system/vendor/lib64/vendor.display.color@1.0.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/vendor.display.color@1.1.so:system/vendor/lib64/vendor.display.color@1.1.so \
