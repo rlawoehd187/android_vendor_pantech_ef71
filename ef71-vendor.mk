@@ -62,7 +62,6 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/lib/libwfduibcsinkinterface.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfduibcsinkinterface.so \
     vendor/pantech/ef71/proprietary/lib/libwfduibcsrc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfduibcsrc.so \
     vendor/pantech/ef71/proprietary/lib/libwfduibcsrcinterface.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfduibcsrcinterface.so \
-    vendor/pantech/ef71/proprietary/lib/vendor.qti.hardware.perf@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.qti.hardware.perf@1.0.so \
     vendor/pantech/ef71/proprietary/lib/vendor.qti.hardware.qdutils_disp@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.qti.hardware.qdutils_disp@1.0.so \
     vendor/pantech/ef71/proprietary/product/lib64/com.qualcomm.qti.imscmservice@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/pantech/ef71/proprietary/product/lib64/com.qualcomm.qti.imscmservice@2.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/com.qualcomm.qti.imscmservice@2.0.so \
@@ -79,7 +78,6 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/lib64/libqti_performance.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libqti_performance.so \
     vendor/pantech/ef71/proprietary/lib64/libwfdclient.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libwfdclient.so \
     vendor/pantech/ef71/proprietary/lib64/libwfdnative.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libwfdnative.so \
-    vendor/pantech/ef71/proprietary/lib64/vendor.qti.hardware.perf@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.perf@1.0.so \
     vendor/pantech/ef71/proprietary/lib64/vendor.qti.hardware.qdutils_disp@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.qdutils_disp@1.0.so \
     vendor/pantech/ef71/proprietary/lib64/libstagefright_soft_flacdec.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libstagefright_soft_flacdec.so \
     vendor/pantech/ef71/proprietary/product/bin/dpmd:$(TARGET_COPY_OUT_PRODUCT)/bin/dpmd \
@@ -106,8 +104,6 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/product/framework/vendor.qti.ims.callinfo-V1.0-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/vendor.qti.ims.callinfo-V1.0-java.jar \
     vendor/pantech/ef71/proprietary/product/framework/vendor.qti.ims.rcsconfig-V1.0-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/vendor.qti.ims.rcsconfig-V1.0-java.jar \
     vendor/pantech/ef71/proprietary/product/lib/com.qualcomm.qti.ant@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/com.qualcomm.qti.ant@1.0.so \
-    vendor/pantech/ef71/proprietary/product/lib/vendor.qti.hardware.perf@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.hardware.perf@1.0.so \
-    vendor/pantech/ef71/proprietary/product/lib/vendor.qti.hardware.perf@2.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.hardware.perf@2.0.so \
     vendor/pantech/ef71/proprietary/product/lib64/com.qualcomm.qti.ant@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/com.qualcomm.qti.ant@1.0.so \
     vendor/pantech/ef71/proprietary/product/lib64/com.qualcomm.qti.dpm.api@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/com.qualcomm.qti.dpm.api@1.0.so \
     vendor/pantech/ef71/proprietary/product/lib64/com.qualcomm.qti.dpm.api@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/com.qualcomm.qti.dpm.api@1.0.so \
@@ -136,8 +132,6 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/product/lib64/libdpmtcm.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libdpmtcm.so \
     vendor/pantech/ef71/proprietary/product/lib64/libimscamera_jni.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libimscamera_jni.so \
     vendor/pantech/ef71/proprietary/product/lib64/libimsmedia_jni.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libimsmedia_jni.so \
-    vendor/pantech/ef71/proprietary/product/lib64/vendor.qti.hardware.perf@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.hardware.perf@1.0.so \
-    vendor/pantech/ef71/proprietary/product/lib64/vendor.qti.hardware.perf@2.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.hardware.perf@2.0.so \
     vendor/pantech/ef71/proprietary/product/lib64/vendor.qti.ims.callinfo@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.ims.callinfo@1.0.so \
     vendor/pantech/ef71/proprietary/product/lib64/vendor.qti.ims.rcsconfig@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.ims.rcsconfig@1.0.so \
     vendor/pantech/ef71/proprietary/product/lib64/vendor.qti.ims.rcsconfig@1.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.ims.rcsconfig@1.1.so \
@@ -594,8 +588,6 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/vendor/lib/vendor.qti.gnss@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.gnss@2.1.so \
     vendor/pantech/ef71/proprietary/vendor/lib/vendor.qti.hardware.iop@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.iop@1.0.so \
     vendor/pantech/ef71/proprietary/vendor/lib/vendor.qti.hardware.iop@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.iop@2.0.so \
-    vendor/pantech/ef71/proprietary/vendor/lib/vendor.qti.hardware.perf@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.perf@1.0.so \
-    vendor/pantech/ef71/proprietary/vendor/lib/vendor.qti.hardware.perf@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.perf@2.0.so \
     vendor/pantech/ef71/proprietary/vendor/lib/vendor.qti.hardware.qdutils_disp@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.qdutils_disp@1.0.so \
     vendor/pantech/ef71/proprietary/vendor/lib/vendor.qti.hardware.tui_comm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.tui_comm@1.0.so \
     vendor/pantech/ef71/proprietary/vendor/lib/vndk-sp/libcutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/vndk-sp/libcutils.so \
@@ -826,8 +818,6 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/vendor/lib64/vendor.qti.hardware.fm@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.fm@1.0_vendor.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/vendor.qti.hardware.iop@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.iop@1.0.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/vendor.qti.hardware.iop@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.iop@2.0.so \
-    vendor/pantech/ef71/proprietary/vendor/lib64/vendor.qti.hardware.perf@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.perf@1.0.so \
-    vendor/pantech/ef71/proprietary/vendor/lib64/vendor.qti.hardware.perf@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.perf@2.0.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.qdutils_disp@1.0.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/vendor.qti.hardware.radio.am@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.am@1.0.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0.so \
