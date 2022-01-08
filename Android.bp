@@ -193,17 +193,6 @@ cc_prebuilt_library_shared {
 }
 
 android_app_import {
-	name: "WfdService",
-	owner: "pantech",
-	apk: "proprietary/priv-app/WfdService/WfdService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-}
-
-android_app_import {
 	name: "CNEService",
 	owner: "pantech",
 	apk: "proprietary/priv-app/CNEService/CNEService.apk",
@@ -258,10 +247,3 @@ android_app_import {
 	},
 	privileged: true,
 }
-
-dex_import {
-	name: "WfdCommon",
-	owner: "pantech",
-	jars: ["proprietary/framework/WfdCommon.jar"],
-}
-
