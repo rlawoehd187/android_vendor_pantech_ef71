@@ -35,8 +35,8 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/pantech/ef71/proprietary/bin/pm-proxy:system/bin/pm-proxy \
     vendor/pantech/ef71/proprietary/bin/pm-service:system/bin/pm-service \
+    vendor/pantech/ef71/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/pantech/ef71/proprietary/bin/qseecomd:system/bin/qseecomd \
-    vendor/pantech/ef71/proprietary/bin/radish:system/bin/radish \
     vendor/pantech/ef71/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/pantech/ef71/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/pantech/ef71/proprietary/bin/ssr_diag:system/bin/ssr_diag \
@@ -58,7 +58,6 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
     vendor/pantech/ef71/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
     vendor/pantech/ef71/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
-    vendor/pantech/ef71/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
     vendor/pantech/ef71/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
     vendor/pantech/ef71/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
     vendor/pantech/ef71/proprietary/etc/drc/drc_cfg_5.1.txt:system/etc/drc/drc_cfg_5.1.txt \
@@ -286,6 +285,7 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libcneconn.so:system/vendor/lib/libcneconn.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
+    vendor/pantech/ef71/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libconnctrl.so:system/vendor/lib/libconnctrl.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libcppf.so:system/vendor/lib/libcppf.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libdataitems.so:system/vendor/lib/libdataitems.so \
@@ -413,6 +413,7 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/vendor/lib/libmmsw_math.so:system/vendor/lib/libmmsw_math.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libmmsw_opencl.so:system/vendor/lib/libmmsw_opencl.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libmmsw_platform.so:system/vendor/lib/libmmsw_platform.so \
+    vendor/pantech/ef71/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libois_lc898122.so:system/vendor/lib/libois_lc898122.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libomx-dts.so:system/vendor/lib/libomx-dts.so \
     vendor/pantech/ef71/proprietary/vendor/lib/liboptizoom.so:system/vendor/lib/liboptizoom.so \
@@ -442,6 +443,11 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/vendor/lib/libqti-wl.so:system/vendor/lib/libqti-wl.so \
     vendor/pantech/ef71/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/pantech/ef71/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
+    vendor/pantech/ef71/proprietary/vendor/lib/libril-qc-ltedirectdisc.so:system/vendor/lib/libril-qc-ltedirectdisc.so \
+    vendor/pantech/ef71/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
+    vendor/pantech/ef71/proprietary/vendor/lib/libril-qc-radioconfig.so:system/vendor/lib/libril-qc-radioconfig.so \
+    vendor/pantech/ef71/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
+    vendor/pantech/ef71/proprietary/vendor/lib/librilqmiservices.so:system/vendor/lib/librilqmiservices.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libsc-a2xx.so:system/vendor/lib/libsc-a2xx.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
@@ -450,6 +456,8 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/vendor/lib/libseemore.so:system/vendor/lib/libseemore.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
+    vendor/pantech/ef71/proprietary/vendor/lib/libsettings.so:system/vendor/lib/libsettings.so \
+    vendor/pantech/ef71/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libsmwrapper.so:system/vendor/lib/libsmwrapper.so \
     vendor/pantech/ef71/proprietary/vendor/lib/libsubsystem_control.so:system/vendor/lib/libsubsystem_control.so \
@@ -543,7 +551,6 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/vendor/lib64/libOmxWmaDec.so:system/vendor/lib64/libOmxWmaDec.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libOpenCL.so:system/vendor/lib64/libOpenCL.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
-    vendor/pantech/ef71/proprietary/vendor/lib64/libQtiTether.so:system/vendor/lib64/libQtiTether.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libRSDriver_adreno.so:system/vendor/lib64/libRSDriver_adreno.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libSecureUILib.so:system/vendor/lib64/libSecureUILib.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libStDrvInt.so:system/vendor/lib64/libStDrvInt.so \
@@ -573,8 +580,6 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libcneconn.so:system/vendor/lib64/libcneconn.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libcneqmiutils.so:system/vendor/lib64/libcneqmiutils.so \
-    vendor/pantech/ef71/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
-    vendor/pantech/ef71/proprietary/vendor/lib64/libconnctrl.so:system/vendor/lib64/libconnctrl.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libdataitems.so:system/vendor/lib64/libdataitems.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libdiag.so:system/vendor/lib64/libdiag.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libdisp-aba.so:system/vendor/lib64/libdisp-aba.so \
@@ -611,8 +616,6 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/vendor/lib64/liblowi_client.so:system/vendor/lib64/liblowi_client.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/liblowi_wifihal.so:system/vendor/lib64/liblowi_wifihal.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/liblowi_wifihal_nl.so:system/vendor/lib64/liblowi_wifihal_nl.so \
-    vendor/pantech/ef71/proprietary/vendor/lib64/liblqe.so:system/vendor/lib64/liblqe.so \
-    vendor/pantech/ef71/proprietary/vendor/lib64/libmdmdetect.so:system/vendor/lib64/libmdmdetect.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libmdtp.so:system/vendor/lib64/libmdtp.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libmdtp_crypto.so:system/vendor/lib64/libmdtp_crypto.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libmmcamera_dbg.so:system/vendor/lib64/libmmcamera_dbg.so \
@@ -624,11 +627,8 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/vendor/lib64/libmm-qdcm.so:system/vendor/lib64/libmm-qdcm.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libmmQSM.so:system/vendor/lib64/libmmQSM.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libmmosal.so:system/vendor/lib64/libmmosal.so \
-    vendor/pantech/ef71/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
-    vendor/pantech/ef71/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libqc-opt.so:system/vendor/lib64/libqc-opt.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libqcci_legacy.so:system/vendor/lib64/libqcci_legacy.so \
-    vendor/pantech/ef71/proprietary/vendor/lib64/libqcmaputils.so:system/vendor/lib64/libqcmaputils.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libqdi.so:system/vendor/lib64/libqdi.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libqdp.so:system/vendor/lib64/libqdp.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libqisl.so:system/vendor/lib64/libqisl.so \
@@ -648,11 +648,6 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/vendor/lib64/libqti-wl.so:system/vendor/lib64/libqti-wl.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libquipc_os_api.so:system/vendor/lib64/libquipc_os_api.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/librcc.so:system/vendor/lib64/librcc.so \
-    vendor/pantech/ef71/proprietary/vendor/lib64/libril-qc-ltedirectdisc.so:system/vendor/lib64/libril-qc-ltedirectdisc.so \
-    vendor/pantech/ef71/proprietary/vendor/lib64/libril-qc-qmi-1.so:system/vendor/lib64/libril-qc-qmi-1.so \
-    vendor/pantech/ef71/proprietary/vendor/lib64/libril-qc-radioconfig.so:system/vendor/lib64/libril-qc-radioconfig.so \
-    vendor/pantech/ef71/proprietary/vendor/lib64/libril-qcril-hook-oem.so:system/vendor/lib64/libril-qcril-hook-oem.so \
-    vendor/pantech/ef71/proprietary/vendor/lib64/librilqmiservices.so:system/vendor/lib64/librilqmiservices.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/librpmb.so:system/vendor/lib64/librpmb.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/librs_adreno.so:system/vendor/lib64/librs_adreno.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/librs_adreno_sha1.so:system/vendor/lib64/librs_adreno_sha1.so \
@@ -668,13 +663,11 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/vendor/lib64/libsecureui_svcsock.so:system/vendor/lib64/libsecureui_svcsock.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libsensor1.so:system/vendor/lib64/libsensor1.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libsensor_reg.so:system/vendor/lib64/libsensor_reg.so \
-    vendor/pantech/ef71/proprietary/vendor/lib64/libsettings.so:system/vendor/lib64/libsettings.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libslimclient.so:system/vendor/lib64/libslimclient.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libsmemlog.so:system/vendor/lib64/libsmemlog.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libssd.so:system/vendor/lib64/libssd.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libsubsystem_control.so:system/vendor/lib64/libsubsystem_control.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libswvdec.so:system/vendor/lib64/libswvdec.so \
-    vendor/pantech/ef71/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libtzdrmgenprov.so:system/vendor/lib64/libtzdrmgenprov.so \
@@ -684,7 +677,6 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef71/proprietary/vendor/lib64/libvoice-svc.so:system/vendor/lib64/libvoice-svc.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libwms.so:system/vendor/lib64/libwms.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libwqe.so:system/vendor/lib64/libwqe.so \
-    vendor/pantech/ef71/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libxt_native.so:system/vendor/lib64/libxt_native.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
     vendor/pantech/ef71/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
@@ -703,6 +695,7 @@ PRODUCT_PACKAGES += \
     libts_face_beautify_hal \
     QtiTelephonyService \
     TimeService \
+    SimSettings \
     datastatusnotification \
     fastdormancy \
     shutdownlistener \
@@ -718,6 +711,6 @@ PRODUCT_PACKAGES += \
     qcrilhook \
     qti-vzw-ims-internal \
     tcmclient \
-    ims\
+    ims \
     imssettings
 
